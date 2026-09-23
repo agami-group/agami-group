@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agami Group — Logistics &amp; back-office services in Israel</title>
+<meta name="description" content="One partner on the ground to run all your operations in Israel: vehicles, phones, warehousing, a local legal entity and full cost transparency for foreign organisations.">
+<meta property="og:title" content="Agami Group">
+<meta property="og:description" content="Logistics and back-office services for foreign organisations operating in Israel.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%231F4E5F'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' fill='white' text-anchor='middle'%3EAG%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&family=Figtree:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+
+:root{
+  --ground:#F3F5F3;
+  --surface:#FFFFFF;
+  --sunk:#E8ECEA;
+  --ink:#121A21;
+  --ink-2:#46525D;
+  --ink-3:#6F7A83;
+  --line:#D5DBD9;
+  --accent:#1F4E5F;
+  --accent-ink:#FFFFFF;
+  --accent-soft:#DCE8EB;
+  --plate:#E8B923;
+  --plate-ink:#121A21;
+  --display:"Roboto Slab", "Rockwell", Georgia, serif;
+  --body:"Figtree", "Segoe UI", system-ui, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --wrap:1180px;
+}
+
+*{box-sizing:border-box}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+.wrap{max-width:var(--wrap);margin-inline:auto;padding-inline:clamp(16px,4vw,40px)}
+h1,h2,h3{font-family:var(--display);font-weight:300;line-height:1.08;letter-spacing:-.015em;margin:0;text-wrap:balance}
+p{margin:0}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+.lede{font-size:clamp(18px,1.6vw,20px);color:var(--ink-2);max-width:60ch}
+
+/* ---------- Nav ---------- */
+.nav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--ground) 88%,transparent);backdrop-filter:saturate(1.2) blur(10px);-webkit-backdrop-filter:saturate(1.2) blur(10px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;height:68px}
+.brand{display:flex;align-items:baseline;gap:10px;text-decoration:none}
+.brand b{font-family:var(--display);font-weight:400;font-size:22px;letter-spacing:-.01em}
+.brand span{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+.nav ul{display:flex;gap:28px;list-style:none;margin:0;padding:0}
+.nav ul a{text-decoration:none;font-size:15px;color:var(--ink-2)}
+.nav ul a:hover{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:10px;font:500 15px/1 var(--body);padding:13px 20px;border-radius:3px;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.btn-primary{background:var(--accent);color:var(--accent-ink)}
+.btn-primary:hover{background:color-mix(in srgb,var(--accent) 86%,var(--ink))}
+.btn-ghost{border-color:var(--line);color:var(--ink);background:transparent}
+.btn-ghost:hover{border-color:var(--ink-3)}
+.btn svg{width:16px;height:16px}
+.brand b,.btn{white-space:nowrap}
+@media (max-width:860px){.nav ul{display:none}}
+@media (max-width:520px){.brand span{display:none}.nav .btn{padding:11px 14px}}
+
+/* ---------- Hero ---------- */
+.hero{padding-block:clamp(56px,8vw,104px) clamp(56px,7vw,88px)}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(32px,5vw,72px);align-items:center}
+.hero h1{font-size:clamp(40px,5.6vw,72px);font-weight:200;margin-block:18px 26px}
+.hero h1 em{font-style:normal;font-weight:400;color:var(--accent)}
+.hero .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+.hero .note{margin-top:28px;display:flex;flex-wrap:wrap;gap:8px 22px;font-size:14px;color:var(--ink-3)}
+.hero .note span::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--plate);margin-right:8px;vertical-align:middle}
+.diagram{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:22px 20px 16px}
+.diagram svg{width:100%;height:auto;display:block}
+.diagram .cap{display:flex;justify-content:space-between;gap:12px;margin-top:8px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
+.d-line{stroke:var(--line);stroke-width:1.4;fill:none}
+.d-line.hot{stroke:var(--accent);stroke-width:1.6}
+.d-node{fill:var(--sunk);stroke:var(--line)}
+.d-core{fill:var(--accent)}
+.d-client{fill:var(--surface);stroke:var(--ink-3)}
+.d-t{fill:var(--ink-2);font-family:var(--body);font-size:13px}
+.d-t.s{font-size:11px;fill:var(--ink-3);font-family:var(--mono);letter-spacing:.06em}
+.d-t.core{fill:var(--accent-ink);font-family:var(--display);font-size:17px}
+.d-t.core.s{font-family:var(--mono);font-size:10px;fill:var(--accent-ink);opacity:.8}
+.pulse{fill:var(--plate)}
+@media (max-width:900px){.hero .wrap{grid-template-columns:1fr}}
+
+/* ---------- Sections ---------- */
+section{padding-block:clamp(64px,8vw,112px)}
+.sec-head{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(24px,5vw,72px);align-items:end;margin-bottom:clamp(36px,5vw,60px)}
+.sec-head h2{font-size:clamp(32px,4vw,52px);margin-top:14px}
+@media (max-width:820px){.sec-head{grid-template-columns:1fr}}
+.band{background:var(--surface);border-block:1px solid var(--line)}
+
+/* Problem → answer ledger */
+.ledger{border-top:1px solid var(--ink)}
+.row{display:grid;grid-template-columns:minmax(0,1fr) 28px minmax(0,1.25fr);gap:clamp(12px,3vw,40px);padding-block:22px;border-bottom:1px solid var(--line);align-items:start}
+.row .q{font-size:17px;color:var(--ink-2)}
+.row .q small{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-bottom:6px}
+.row .arr{color:var(--accent);padding-top:22px}
+.row .a{font-family:var(--display);font-weight:300;font-size:clamp(19px,1.8vw,23px);line-height:1.35}
+.row .a small{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:6px;font-weight:500}
+.ledger-head{display:grid;grid-template-columns:minmax(0,1fr) 28px minmax(0,1.25fr);gap:clamp(12px,3vw,40px);padding-block:12px}
+@media (max-width:700px){.row,.ledger-head{grid-template-columns:1fr}.row .arr,.ledger-head .x{display:none}.ledger-head span:last-child{display:none}.row .a{padding-left:14px;border-left:2px solid var(--accent)}}
+
+/* Services */
+.services{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.svc{background:var(--ground);padding:clamp(24px,3vw,36px);display:flex;flex-direction:column;gap:14px}
+.band .svc{background:var(--surface)}
+.svc .ico{width:40px;height:40px;color:var(--accent)}
+.svc h3{font-size:26px;font-weight:300}
+.svc p{color:var(--ink-2);font-size:16px}
+.svc ul{list-style:none;padding:0;margin:4px 0 0;display:grid;gap:9px}
+.svc li{font-size:15px;color:var(--ink);padding-left:22px;position:relative;line-height:1.5}
+.svc li::before{content:"";position:absolute;left:0;top:.62em;width:11px;height:1.5px;background:var(--accent)}
+.svc .tag{margin-top:auto;padding-top:10px;font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+@media (max-width:980px){.services{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.services{grid-template-columns:1fr}}
+
+/* Transparency */
+.tp{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(32px,5vw,72px);align-items:start}
+.tp h2{font-size:clamp(32px,4vw,52px);margin-block:14px 22px}
+.points{display:grid;gap:22px;margin-top:34px}
+.pt{display:grid;grid-template-columns:36px 1fr;gap:14px}
+.pt svg{width:24px;height:24px;color:var(--accent);margin-top:3px}
+.pt b{display:block;font-weight:600;margin-bottom:2px}
+.pt span{color:var(--ink-2);font-size:16px}
+.report{background:var(--surface);border:1px solid var(--line);border-radius:6px;box-shadow:0 1px 0 var(--line),0 24px 48px -32px rgba(18,26,33,.35);overflow:hidden}
+.report-top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 20px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.report-top b{font-family:var(--display);font-weight:400;font-size:18px}
+.chip{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;padding:4px 8px;border-radius:2px;background:var(--sunk);color:var(--ink-2)}
+.chip.ex{background:var(--plate);color:var(--plate-ink)}
+.tbl-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px;min-width:520px}
+th{font-family:var(--mono);font-weight:500;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);text-align:left;padding:10px 20px;border-bottom:1px solid var(--line);background:var(--sunk)}
+td{padding:12px 20px;border-bottom:1px solid var(--line);vertical-align:top}
+td .he{display:block;font-size:12px;color:var(--ink-3);direction:rtl;text-align:left;unicode-bidi:plaintext}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;font-family:var(--mono);font-size:13px}
+.cat{display:inline-block;font-size:12px;padding:2px 8px;border-radius:20px;border:1px solid var(--line);color:var(--ink-2);white-space:nowrap}
+.report-foot{display:flex;justify-content:space-between;gap:12px;padding:14px 20px;font-size:14px;flex-wrap:wrap}
+.report-foot b{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.bars{display:flex;height:8px;margin:0 20px 18px;border-radius:2px;overflow:hidden;gap:2px}
+.bars i{display:block;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;padding:0 20px 18px;font-size:12px;color:var(--ink-2)}
+.legend span::before{content:"";display:inline-block;width:8px;height:8px;border-radius:1px;margin-right:6px;background:var(--c)}
+@media (max-width:900px){.tp{grid-template-columns:1fr}}
+
+/* Process */
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(16px,2.5vw,32px);counter-reset:s}
+.step{border-top:1px solid var(--ink);padding-top:20px}
+.step .n{font-family:var(--mono);font-size:12px;color:var(--accent);letter-spacing:.1em}
+.step h3{font-size:24px;margin-block:10px 10px}
+.step p{color:var(--ink-2);font-size:16px}
+@media (max-width:900px){.steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.steps{grid-template-columns:1fr}}
+
+/* Team */
+.team{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:clamp(32px,5vw,72px);align-items:center}
+.team h2{font-size:clamp(32px,4vw,52px);margin-block:14px 22px}
+.people{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.person{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:22px 20px}
+.mono-av{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent);font-family:var(--display);font-size:22px;margin-bottom:16px}
+.person b{display:block;font-family:var(--display);font-weight:400;font-size:20px}
+.person span{font-size:14px;color:var(--ink-3)}
+@media (max-width:900px){.team{grid-template-columns:1fr}}
+@media (max-width:520px){.people{grid-template-columns:1fr}}
+
+/* Contact */
+.contact{background:var(--accent);color:var(--accent-ink)}
+.contact .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,5vw,72px);align-items:start}
+.contact h2{font-size:clamp(34px,4.4vw,58px);font-weight:200}
+.contact .eyebrow{color:color-mix(in srgb,var(--accent-ink) 70%,transparent)}
+.contact p{color:color-mix(in srgb,var(--accent-ink) 82%,transparent);margin-top:20px;max-width:46ch}
+.mail{margin-top:34px;display:flex;flex-wrap:wrap;align-items:center;gap:12px}
+.mail code{font-family:var(--mono);font-size:clamp(16px,2vw,20px);padding:12px 16px;border:1px solid color-mix(in srgb,var(--accent-ink) 35%,transparent);border-radius:3px;user-select:all;word-break:break-all}
+.btn-inv{background:var(--accent-ink);color:var(--accent)}
+.btn-inv:hover{background:color-mix(in srgb,var(--accent-ink) 88%,var(--accent))}
+.builder{background:color-mix(in srgb,var(--accent-ink) 8%,transparent);border:1px solid color-mix(in srgb,var(--accent-ink) 22%,transparent);border-radius:6px;padding:clamp(20px,3vw,28px)}
+.builder h3{font-size:22px;font-weight:300;margin-bottom:6px}
+.builder .sub{font-size:14px;opacity:.8;margin-bottom:18px}
+.opts{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.opts input{position:absolute;opacity:0;pointer-events:none}
+.opts label{font-size:14px;padding:8px 13px;border-radius:40px;border:1px solid color-mix(in srgb,var(--accent-ink) 35%,transparent);cursor:pointer;transition:background .15s,color .15s;user-select:none}
+.opts input:checked + label{background:var(--accent-ink);color:var(--accent);border-color:var(--accent-ink)}
+.opts input:focus-visible + label{outline:2px solid var(--plate);outline-offset:2px}
+.field{display:grid;gap:6px;margin-bottom:14px}
+.field label{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;opacity:.8}
+.field input,.field textarea{font:inherit;font-size:15px;color:var(--accent-ink);background:transparent;border:1px solid color-mix(in srgb,var(--accent-ink) 35%,transparent);border-radius:3px;padding:10px 12px;width:100%}
+.field input::placeholder,.field textarea::placeholder{color:color-mix(in srgb,var(--accent-ink) 55%,transparent)}
+.field textarea{resize:vertical;min-height:84px}
+.preview{font-family:var(--mono);font-size:12.5px;line-height:1.55;white-space:pre-wrap;background:color-mix(in srgb,var(--ink) 18%,transparent);border-radius:3px;padding:14px;margin-block:4px 14px;max-height:220px;overflow:auto}
+.status{font-size:13px;margin-left:10px;opacity:.9}
+@media (max-width:900px){.contact .wrap{grid-template-columns:1fr}}
+
+footer{padding-block:34px;border-top:1px solid var(--line);font-size:14px;color:var(--ink-3)}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+footer a{text-decoration:none}
+
+
+[hidden]{display:none!important}
+img{max-width:100%}
+section,[id]{scroll-margin-top:90px}
+button{font-family:inherit}
+.people.many{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
+
+</style>
+</head>
+<body>
+<!-- ============ NAV ============ -->
+<header class="nav" id="top">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Agami Group home"><b data-k="nav-01">Agami Group</b><span data-k="nav-02">Israel Operations</span></a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#services" data-k="nav-03">Services</a></li>
+        <li><a href="#transparency" data-k="nav-04">Transparency</a></li>
+        <li><a href="#process" data-k="nav-05">How we work</a></li>
+        <li><a href="#team" data-k="nav-06">Team</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-primary" href="#contact"><span data-k="nav-07">Get in touch</span></a>
+  </div>
+</header>
+
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow" data-k="hero-01">Logistics &amp; back-office for foreign organisations</p>
+      <h1 data-k="hero-02">One partner on the ground to run <em>all your operations</em> in Israel.</h1>
+      <p class="lede" data-k="hero-03">Phones, vehicles, warehousing, a local legal entity and the paperwork in between — handled by one Israeli team, with every shekel documented and visible to your management.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#contact"><span data-k="hero-04">Plan your setup</span>
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"></path></svg></a>
+        <a class="btn btn-ghost" href="#services"><span data-k="hero-05">See services</span></a>
+      </div>
+      <div class="note"><span data-k="hero-06">One point of contact</span><span data-k="hero-07">No mediation fees</span><span data-k="hero-08">Compliant with Israeli law</span></div>
+    </div>
+
+    <figure class="diagram" aria-label="Diagram: your organisation talks only to Agami Group, which manages every local provider.">
+      <svg viewBox="0 0 520 380" role="img">
+        <!-- client -> core -->
+        <path class="d-line hot" d="M118 190 H208"></path>
+        <!-- core -> providers -->
+        <path class="d-line" d="M312 190 C350 190 350 42 386 42"></path>
+        <path class="d-line" d="M312 190 C352 190 352 101 386 101"></path>
+        <path class="d-line" d="M312 190 C356 190 356 160 386 160"></path>
+        <path class="d-line" d="M312 190 C356 190 356 220 386 220"></path>
+        <path class="d-line" d="M312 190 C352 190 352 279 386 279"></path>
+        <path class="d-line" d="M312 190 C350 190 350 338 386 338"></path>
+        <circle class="pulse" r="4"><animateMotion dur="2.6s" repeatCount="indefinite" path="M118 190 H208"></animateMotion></circle>
+
+        <!-- client -->
+        <rect class="d-client" x="8" y="152" width="110" height="76" rx="4"></rect>
+        <text class="d-t s" x="63" y="180" text-anchor="middle">YOUR</text>
+        <text class="d-t" x="63" y="202" text-anchor="middle">Organisation</text>
+
+        <!-- core -->
+        <rect class="d-core" x="208" y="140" width="104" height="100" rx="4"></rect>
+        <text class="d-t core" x="260" y="186" text-anchor="middle">Agami</text>
+        <text class="d-t core" x="260" y="206" text-anchor="middle">Group</text>
+        <text class="d-t core s" x="260" y="226" text-anchor="middle">ONE CONTACT</text>
+
+        <!-- providers -->
+        <g>
+          <rect class="d-node" x="386" y="26" width="126" height="32" rx="3"></rect><text class="d-t" x="398" y="47">Cellular carrier</text>
+          <rect class="d-node" x="386" y="85" width="126" height="32" rx="3"></rect><text class="d-t" x="398" y="106">Warehouse</text>
+          <rect class="d-node" x="386" y="144" width="126" height="32" rx="3"></rect><text class="d-t" x="398" y="165">Garage &amp; test</text>
+          <rect class="d-node" x="386" y="204" width="126" height="32" rx="3"></rect><text class="d-t" x="398" y="225">Insurer &amp; fuel</text>
+          <rect class="d-node" x="386" y="263" width="126" height="32" rx="3"></rect><text class="d-t" x="398" y="284">Food card issuer</text>
+          <rect class="d-node" x="386" y="322" width="126" height="32" rx="3"></rect><text class="d-t" x="398" y="343">Legal &amp; accounts</text>
+        </g>
+      </svg>
+      <figcaption class="cap"><span data-k="hero-09">You</span><span data-k="hero-10">Us</span><span data-k="hero-11">Every local provider</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ PROBLEM → ANSWER ============ -->
+<section class="band" id="why">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow" data-k="challenges-01">Why organisations call us</p>
+        <h2 data-k="challenges-02">Operating in Israel from abroad is harder than it should be.</h2>
+      </div>
+      <p class="lede" data-k="challenges-03">Foreign teams keep running into the same six obstacles. Each one has a direct answer — and all six answers come from the same partner.</p>
+    </div>
+
+    <div class="ledger" role="list">
+      <div class="ledger-head eyebrow"><span data-k="challenges-04">The challenge</span><span class="x"></span><span data-k="challenges-05">How we solve it</span></div>
+
+      <div class="row" role="listitem">
+        <p class="q"><small data-k="challenges-06">Logistics</small><span data-k="challenges-07">Phones, cars, storage and supplies each need a different local arrangement.</span></p>
+        <span class="arr" aria-hidden="true">→</span>
+        <p class="a"><small data-k="challenges-08">Managed logistics</small><span data-k="challenges-09">We run connectivity, vehicles, warehousing and food cards end to end.</span></p>
+      </div>
+      <div class="row" role="listitem">
+        <p class="q"><small data-k="challenges-10">Cost visibility</small><span data-k="challenges-11">Operational costs are unclear, in Hebrew, and hard to reconcile.</span></p>
+        <span class="arr" aria-hidden="true">→</span>
+        <p class="a"><small data-k="challenges-12">Full transparency</small><span data-k="challenges-13">Every expense documented, translated, categorised and open to your management at any time.</span></p>
+      </div>
+      <div class="row" role="listitem">
+        <p class="q"><small data-k="challenges-14">Legal standing</small><span data-k="challenges-15">No proper Israeli legal entity to contract, hire and operate under.</span></p>
+        <span class="arr" aria-hidden="true">→</span>
+        <p class="a"><small data-k="challenges-16">Legal entity</small><span data-k="challenges-17">You work under our entity, and we keep the operation compliant with Israeli law.</span></p>
+      </div>
+      <div class="row" role="listitem">
+        <p class="q"><small data-k="challenges-18">The unexpected</small><span data-k="challenges-19">A broken-down car or a blocked SIM becomes a week-long problem.</span></p>
+        <span class="arr" aria-hidden="true">→</span>
+        <p class="a"><small data-k="challenges-20">Boots on the ground</small><span data-k="challenges-21">An Israeli team that picks up the phone and solves it — in any area of your operation.</span></p>
+      </div>
+      <div class="row" role="listitem">
+        <p class="q"><small data-k="challenges-22">Supplier pricing</small><span data-k="challenges-23">Third-party providers quote foreigners more than locals.</span></p>
+        <span class="arr" aria-hidden="true">→</span>
+        <p class="a"><small data-k="challenges-24">Fair local rates</small><span data-k="challenges-25">We negotiate as locals and pass supplier quotes to you directly, with no mediation fee.</span></p>
+      </div>
+      <div class="row" role="listitem">
+        <p class="q"><small data-k="challenges-26">Too many contacts</small><span data-k="challenges-27">A different point of contact for every part of the operation.</span></p>
+        <span class="arr" aria-hidden="true">→</span>
+        <p class="a"><small data-k="challenges-28">One point of contact</small><span data-k="challenges-29">One team, one line, one monthly salary for all of it.</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow" data-k="services-01">Services</p>
+        <h2 data-k="services-02">Everything your team needs to operate — handled locally.</h2>
+      </div>
+      <p class="lede" data-k="services-03">Choose what you need. Most organisations start with vehicles and phones, then hand us the rest once they see it running.</p>
+    </div>
+
+    <div class="services">
+      <article class="svc">
+        <svg class="ico" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="12" y="4" width="16" height="32" rx="3"></rect><path d="M18 31h4"></path><path d="M5 14c2-2 2-6 0-8M35 14c-2-2-2-6 0-8"></path></svg>
+        <h3 data-k="services-04">Connectivity</h3>
+        <p data-k="services-05">Stay connected without the hassle.</p>
+        <ul>
+          <li data-k="services-06">Israeli SIM cards with local numbers at Israeli rates</li>
+          <li data-k="services-07">Phones for your teams, by your choice of device</li>
+          <li data-k="services-08">Seamless coordination of new or replacement SIMs</li>
+        </ul>
+        <p class="tag" data-k="services-09">Cellular &amp; devices</p>
+      </article>
+
+      <article class="svc">
+        <svg class="ico" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 16 20 6l16 10v18H4z"></path><path d="M11 34V22h18v12M11 28h18"></path></svg>
+        <h3 data-k="services-10">Warehouse management</h3>
+        <p data-k="services-11">Your equipment organised and within reach.</p>
+        <ul>
+          <li data-k="services-12">Storage kept organised and easily accessible</li>
+          <li data-k="services-13">Spare keys and local backup — just in case</li>
+          <li data-k="services-14">On-demand inventory and equipment renewal</li>
+        </ul>
+        <p class="tag" data-k="services-15">Storage &amp; inventory</p>
+      </article>
+
+      <article class="svc">
+        <svg class="ico" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 26v-7l4-8h22l4 8v7z"></path><path d="M5 19h30"></path><circle cx="12" cy="27" r="3"></circle><circle cx="28" cy="27" r="3"></circle></svg>
+        <h3 data-k="services-16">Vehicle operations</h3>
+        <p data-k="services-17">End-to-end fleet management.</p>
+        <ul>
+          <li data-k="services-18">Annual vehicle inspection (<i>test</i>) handled for you</li>
+          <li data-k="services-19">Full maintenance management</li>
+          <li data-k="services-20">Fuel / fleet card — better rates, simpler use</li>
+          <li data-k="services-21">Reduced insurance rates</li>
+          <li data-k="services-22">An Israeli at the garage — no over-charging</li>
+        </ul>
+        <p class="tag" data-k="services-23">Fleet</p>
+      </article>
+
+      <article class="svc">
+        <svg class="ico" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="4" y="10" width="32" height="21" rx="3"></rect><path d="M4 16h32M10 25h8"></path></svg>
+        <h3 data-k="services-24">Food card</h3>
+        <p data-k="services-25">A dedicated, rechargeable card for your team.</p>
+        <ul>
+          <li data-k="services-26">Accepted for groceries and eating out</li>
+          <li data-k="services-27">Recharged centrally, per person</li>
+          <li data-k="services-28">Clear cost tracking and easier use than cash or receipts</li>
+        </ul>
+        <p class="tag" data-k="services-29">Team welfare</p>
+      </article>
+
+      <article class="svc">
+        <svg class="ico" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 5v30M9 35h22M20 9l-12 4 12-4 12 4"></path><path d="M8 13 4 23a4 4 0 0 0 8 0zM32 13l-4 10a4 4 0 0 0 8 0z"></path></svg>
+        <h3 data-k="services-30">Legal entity</h3>
+        <p data-k="services-31">A proper Israeli structure to operate under.</p>
+        <ul>
+          <li data-k="services-32">Work under our registered Israeli entity</li>
+          <li data-k="services-33">Contracts, suppliers and accounts in order</li>
+          <li data-k="services-34">Ongoing compliance with Israeli law</li>
+        </ul>
+        <p class="tag" data-k="services-35">Bureaucracy &amp; compliance</p>
+      </article>
+
+      <article class="svc">
+        <svg class="ico" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="20" cy="17" r="6"></circle><path d="M20 35s-11-9-11-18a11 11 0 0 1 22 0c0 9-11 18-11 18z"></path></svg>
+        <h3 data-k="services-36">Local point of contact</h3>
+        <p data-k="services-37">Your boots on the ground in Israel.</p>
+        <ul>
+          <li data-k="services-38">Here to solve any unexpected problem, in every area of operation</li>
+          <li data-k="services-39">We deal with every third-party provider for you</li>
+          <li data-k="services-40">Making sure you are treated fairly — every time</li>
+        </ul>
+        <p class="tag" data-k="services-41">On call</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRANSPARENCY ============ -->
+<section class="band" id="transparency">
+  <div class="wrap tp">
+    <div>
+      <p class="eyebrow" data-k="transparency-01">Full cost transparency</p>
+      <h2 data-k="transparency-02">You see every shekel. In your language.</h2>
+      <p class="lede" data-k="transparency-03">We don't make money on the gap between what suppliers charge and what you pay. You get the real numbers, organised the way your finance team needs them.</p>
+      <div class="points">
+        <div class="pt">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"></path><path d="M9 11h7M9 15h7"></path></svg>
+          <div><b data-k="transparency-04">Documented &amp; translated</b><span data-k="transparency-05">Every receipt recorded, translated when needed, and broken down by category.</span></div>
+        </div>
+        <div class="pt">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c1-4 4-6 8-6s7 2 8 6"></path></svg>
+          <div><b data-k="transparency-06">One local salary</b><span data-k="transparency-07">A single monthly fee covers the management of all your logistics, tailored to your organisation.</span></div>
+        </div>
+        <div class="pt">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12l5 5L20 6"></path></svg>
+          <div><b data-k="transparency-08">Direct supplier quotes</b><span data-k="transparency-09">Quotes go to you as issued — no added fees, no hidden mediation charges.</span></div>
+        </div>
+      </div>
+    </div>
+
+    <figure class="report" aria-label="Example of a monthly expense report">
+      <div class="report-top">
+        <b data-k="transparency-10">Monthly expense report</b>
+        <span class="chip ex">Example</span>
+      </div>
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>Date</th><th>Item</th><th>Category</th><th class="num">₪ ILS</th></tr></thead>
+          <tbody>
+            <tr><td>03.08</td><td>Annual vehicle test — Van 2<span class="he">מבחן רישוי שנתי</span></td><td><span class="cat">Fleet</span></td><td class="num">1,140.00</td></tr>
+            <tr><td>05.08</td><td>SIM plans × 12<span class="he">חבילות סלולר</span></td><td><span class="cat">Connectivity</span></td><td class="num">660.00</td></tr>
+            <tr><td>11.08</td><td>Brake service — Car 4<span class="he">טיפול בלמים</span></td><td><span class="cat">Fleet</span></td><td class="num">1,820.00</td></tr>
+            <tr><td>14.08</td><td>Food card recharge × 8<span class="he">טעינת כרטיס מזון</span></td><td><span class="cat">Food card</span></td><td class="num">4,800.00</td></tr>
+            <tr><td>31.08</td><td>Warehouse rent<span class="he">שכירות מחסן</span></td><td><span class="cat">Warehouse</span></td><td class="num">2,300.00</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="report-foot"><span>Total for August · 5 items shown</span><b>₪ 10,720.00</b></div>
+      <div class="bars" aria-hidden="true">
+        <i style="flex:2960;background:var(--accent)"></i>
+        <i style="flex:4800;background:var(--plate)"></i>
+        <i style="flex:2300;background:var(--ink-3)"></i>
+        <i style="flex:660;background:var(--accent-soft)"></i>
+      </div>
+      <div class="legend">
+        <span style="--c:var(--accent)">Fleet 28%</span>
+        <span style="--c:var(--plate)">Food card 45%</span>
+        <span style="--c:var(--ink-3)">Warehouse 21%</span>
+        <span style="--c:var(--accent-soft)">Connectivity 6%</span>
+      </div>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section id="process">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow" data-k="process-01">How we work</p>
+        <h2 data-k="process-02">From first call to running operation.</h2>
+      </div>
+      <p class="lede" data-k="process-03">We take over one area at a time, so nothing drops while your team keeps working.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><span class="n" data-k="process-04">STEP 1</span><h3 data-k="process-05">Introduction</h3><p data-k="process-06">A short call to understand your organisation, team size and where it hurts today.</p></div>
+      <div class="step"><span class="n" data-k="process-07">STEP 2</span><h3 data-k="process-08">Needs map</h3><p data-k="process-09">We list every vehicle, line, storage need and supplier, and quote the real costs.</p></div>
+      <div class="step"><span class="n" data-k="process-10">STEP 3</span><h3 data-k="process-11">Setup</h3><p data-k="process-12">Entity, SIMs, fleet, warehouse and food cards are transferred or set up under our management.</p></div>
+      <div class="step"><span class="n" data-k="process-13">STEP 4</span><h3 data-k="process-14">Ongoing</h3><p data-k="process-15">One monthly salary, one contact, and an expense report your management can open anytime.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TEAM ============ -->
+<section class="band" id="team">
+  <div class="wrap team">
+    <div>
+      <p class="eyebrow" data-k="team-01">Who we are</p>
+      <h2 data-k="team-02">Two founders. One job: make Israel easy for you.</h2>
+      <p class="lede" data-k="team-03">We run Agami Group to give foreign organisations operating in Israel a seamless, worry-free solution for their operations — so your people can focus on the work they came here to do.</p>
+    </div>
+    <div class="people" id="people">
+      <div class="person"><div class="mono-av" aria-hidden="true">A</div><b>Amos Agami</b><span>Co-founder</span></div>
+      <div class="person"><div class="mono-av" aria-hidden="true">J</div><b>Jonathan Agami</b><span>Co-founder</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow" data-k="contact-01">Get in touch</p>
+      <h2 data-k="contact-02">Tell us what you run in Israel. We'll handle the rest.</h2>
+      <p data-k="contact-03">Write to us with a few lines about your organisation and the services you need. We reply with a clear plan and real local costs.</p>
+      <div class="mail">
+        <code id="email" data-k="contact-04">a.agami@agami-grp.com</code>
+        <button class="btn btn-inv" type="button" id="copyEmail"><span data-k="contact-05">Copy email</span></button>
+        <span class="status" id="emailStatus" aria-live="polite"></span>
+      </div>
+    </div>
+
+    <form class="builder" id="builder" novalidate="">
+      <h3 data-k="contact-06">Draft your enquiry</h3>
+      <p class="sub" data-k="contact-07">Pick what you need, then open it in your email or copy it.</p>
+      <div class="opts" role="group" aria-label="Services needed">
+        <input type="checkbox" id="o-veh" value="Vehicle operations" checked=""><label for="o-veh">Vehicles</label>
+        <input type="checkbox" id="o-sim" value="SIM cards &amp; phones" checked=""><label for="o-sim">SIMs &amp; phones</label>
+        <input type="checkbox" id="o-wh" value="Warehouse management"><label for="o-wh">Warehouse</label>
+        <input type="checkbox" id="o-food" value="Food card"><label for="o-food">Food card</label>
+        <input type="checkbox" id="o-legal" value="Legal entity"><label for="o-legal">Legal entity</label>
+        <input type="checkbox" id="o-poc" value="Local point of contact"><label for="o-poc">Point of contact</label>
+      </div>
+      <div class="field"><label for="f-org">Organisation</label><input id="f-org" type="text" placeholder="e.g. International relief mission"></div>
+      <div class="field"><label for="f-note">Anything else</label><textarea id="f-note" placeholder="Team size, number of vehicles, where you are based…"></textarea></div>
+      <div class="preview" id="preview" aria-live="polite"></div>
+      <button class="btn btn-inv" type="submit"><span data-k="contact-08">Open in email</span></button> <button class="btn btn-ghost" type="button" id="copyMsg" style="color:inherit;border-color:currentColor"><span data-k="contact-09">Copy message</span></button><span class="status" id="msgStatus" aria-live="polite"></span>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span data-k="footer-01">© 2026 Agami Group · Logistics &amp; back-office services in Israel</span>
+    <a href="#top" data-k="footer-02">Back to top ↑</a>
+  </div>
+</footer>
+
+
+<script>
+(function(){
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const fmt = s => esc(s).replace(/\*(.+?)\*/g,'<em>$1</em>').replace(/\r?\n/g,'<br>');
+
+  // ---- Content from the admin panel ----
+  function apply(data){
+    const text = data.text || {};
+    document.querySelectorAll('[data-k]').forEach(el => {
+      const v = text[el.dataset.k];
+      if (typeof v === 'string' && v.trim()) el.innerHTML = fmt(v.trim());
+    });
+    if (Array.isArray(data.team) && data.team.length){
+      const box = $('#people');
+      box.innerHTML = data.team.map(p => '<div class="person"><div class="mono-av" aria-hidden="true">' +
+        esc(((p.name||'').trim().charAt(0) || '?').toUpperCase()) + '</div><b>' + esc(p.name||'') + '</b><span>' + esc(p.role||'') + '</span></div>').join('');
+      box.classList.toggle('many', data.team.length > 3);
+    }
+    renderMsg();
+  }
+  fetch('/api/content').then(r => r.ok ? r.json() : null).then(d => { if (d) apply(d); }).catch(() => {});
+
+  // ---- Contact helpers ----
+  const flash = (el, t) => { el.textContent = t; setTimeout(() => el.textContent = '', 2600); };
+  const copy = (text, st) => {
+    if (navigator.clipboard) navigator.clipboard.writeText(text).then(() => flash(st,'Copied'), () => flash(st,'Select the text and press Ctrl/⌘ + C'));
+    else flash(st,'Select the text and press Ctrl/⌘ + C');
+  };
+  $('#copyEmail').addEventListener('click', () => copy($('#email').textContent.trim(), $('#emailStatus')));
+
+  function msg(){
+    const svcs = [...document.querySelectorAll('.opts input:checked')].map(i => '  • ' + i.value);
+    const org = $('#f-org').value.trim(), note = $('#f-note').value.trim();
+    return {
+      to: $('#email').textContent.trim(),
+      subject: 'Operations in Israel' + (org ? ' — ' + org : ''),
+      body: 'Hello Agami Group,\n\n' + (org ? 'We are ' + org + ' and we' : 'We') + ' are looking for support with:\n' +
+        (svcs.length ? svcs.join('\n') : '  • (select services above)') + (note ? '\n\n' + note : '') + '\n\nPlease let us know the next steps.\n'
+    };
+  }
+  function renderMsg(){ const m = msg(); $('#preview').textContent = 'To: ' + m.to + '\nSubject: ' + m.subject + '\n\n' + m.body; }
+  const form = $('#builder');
+  form.addEventListener('input', renderMsg); form.addEventListener('change', renderMsg);
+  form.addEventListener('submit', e => { e.preventDefault(); const m = msg();
+    location.href = 'mailto:' + m.to + '?subject=' + encodeURIComponent(m.subject) + '&body=' + encodeURIComponent(m.body); });
+  $('#copyMsg').addEventListener('click', () => copy(msg().body, $('#msgStatus')));
+  renderMsg();
+})();
+</script>
+</body>
+</html>

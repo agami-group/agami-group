@@ -1,0 +1,649 @@
+{
+ "fields": [
+  {
+   "key": "nav-01",
+   "section": "nav",
+   "value": "Agami Group"
+  },
+  {
+   "key": "nav-02",
+   "section": "nav",
+   "value": "Israel Operations"
+  },
+  {
+   "key": "nav-03",
+   "section": "nav",
+   "value": "Services"
+  },
+  {
+   "key": "nav-04",
+   "section": "nav",
+   "value": "Transparency"
+  },
+  {
+   "key": "nav-05",
+   "section": "nav",
+   "value": "How we work"
+  },
+  {
+   "key": "nav-06",
+   "section": "nav",
+   "value": "Team"
+  },
+  {
+   "key": "nav-07",
+   "section": "nav",
+   "value": "Get in touch"
+  },
+  {
+   "key": "hero-01",
+   "section": "hero",
+   "value": "Logistics & back-office for foreign organisations"
+  },
+  {
+   "key": "hero-02",
+   "section": "hero",
+   "value": "One partner on the ground to run *all your operations* in Israel."
+  },
+  {
+   "key": "hero-03",
+   "section": "hero",
+   "value": "Phones, vehicles, warehousing, a local legal entity and the paperwork in between — handled by one Israeli team, with every shekel documented and visible to your management."
+  },
+  {
+   "key": "hero-04",
+   "section": "hero",
+   "value": "Plan your setup"
+  },
+  {
+   "key": "hero-05",
+   "section": "hero",
+   "value": "See services"
+  },
+  {
+   "key": "hero-06",
+   "section": "hero",
+   "value": "One point of contact"
+  },
+  {
+   "key": "hero-07",
+   "section": "hero",
+   "value": "No mediation fees"
+  },
+  {
+   "key": "hero-08",
+   "section": "hero",
+   "value": "Compliant with Israeli law"
+  },
+  {
+   "key": "hero-09",
+   "section": "hero",
+   "value": "You"
+  },
+  {
+   "key": "hero-10",
+   "section": "hero",
+   "value": "Us"
+  },
+  {
+   "key": "hero-11",
+   "section": "hero",
+   "value": "Every local provider"
+  },
+  {
+   "key": "challenges-01",
+   "section": "challenges",
+   "value": "Why organisations call us"
+  },
+  {
+   "key": "challenges-02",
+   "section": "challenges",
+   "value": "Operating in Israel from abroad is harder than it should be."
+  },
+  {
+   "key": "challenges-03",
+   "section": "challenges",
+   "value": "Foreign teams keep running into the same six obstacles. Each one has a direct answer — and all six answers come from the same partner."
+  },
+  {
+   "key": "challenges-04",
+   "section": "challenges",
+   "value": "The challenge"
+  },
+  {
+   "key": "challenges-05",
+   "section": "challenges",
+   "value": "How we solve it"
+  },
+  {
+   "key": "challenges-06",
+   "section": "challenges",
+   "value": "Logistics"
+  },
+  {
+   "key": "challenges-07",
+   "section": "challenges",
+   "value": "Phones, cars, storage and supplies each need a different local arrangement."
+  },
+  {
+   "key": "challenges-08",
+   "section": "challenges",
+   "value": "Managed logistics"
+  },
+  {
+   "key": "challenges-09",
+   "section": "challenges",
+   "value": "We run connectivity, vehicles, warehousing and food cards end to end."
+  },
+  {
+   "key": "challenges-10",
+   "section": "challenges",
+   "value": "Cost visibility"
+  },
+  {
+   "key": "challenges-11",
+   "section": "challenges",
+   "value": "Operational costs are unclear, in Hebrew, and hard to reconcile."
+  },
+  {
+   "key": "challenges-12",
+   "section": "challenges",
+   "value": "Full transparency"
+  },
+  {
+   "key": "challenges-13",
+   "section": "challenges",
+   "value": "Every expense documented, translated, categorised and open to your management at any time."
+  },
+  {
+   "key": "challenges-14",
+   "section": "challenges",
+   "value": "Legal standing"
+  },
+  {
+   "key": "challenges-15",
+   "section": "challenges",
+   "value": "No proper Israeli legal entity to contract, hire and operate under."
+  },
+  {
+   "key": "challenges-16",
+   "section": "challenges",
+   "value": "Legal entity"
+  },
+  {
+   "key": "challenges-17",
+   "section": "challenges",
+   "value": "You work under our entity, and we keep the operation compliant with Israeli law."
+  },
+  {
+   "key": "challenges-18",
+   "section": "challenges",
+   "value": "The unexpected"
+  },
+  {
+   "key": "challenges-19",
+   "section": "challenges",
+   "value": "A broken-down car or a blocked SIM becomes a week-long problem."
+  },
+  {
+   "key": "challenges-20",
+   "section": "challenges",
+   "value": "Boots on the ground"
+  },
+  {
+   "key": "challenges-21",
+   "section": "challenges",
+   "value": "An Israeli team that picks up the phone and solves it — in any area of your operation."
+  },
+  {
+   "key": "challenges-22",
+   "section": "challenges",
+   "value": "Supplier pricing"
+  },
+  {
+   "key": "challenges-23",
+   "section": "challenges",
+   "value": "Third-party providers quote foreigners more than locals."
+  },
+  {
+   "key": "challenges-24",
+   "section": "challenges",
+   "value": "Fair local rates"
+  },
+  {
+   "key": "challenges-25",
+   "section": "challenges",
+   "value": "We negotiate as locals and pass supplier quotes to you directly, with no mediation fee."
+  },
+  {
+   "key": "challenges-26",
+   "section": "challenges",
+   "value": "Too many contacts"
+  },
+  {
+   "key": "challenges-27",
+   "section": "challenges",
+   "value": "A different point of contact for every part of the operation."
+  },
+  {
+   "key": "challenges-28",
+   "section": "challenges",
+   "value": "One point of contact"
+  },
+  {
+   "key": "challenges-29",
+   "section": "challenges",
+   "value": "One team, one line, one monthly salary for all of it."
+  },
+  {
+   "key": "services-01",
+   "section": "services",
+   "value": "Services"
+  },
+  {
+   "key": "services-02",
+   "section": "services",
+   "value": "Everything your team needs to operate — handled locally."
+  },
+  {
+   "key": "services-03",
+   "section": "services",
+   "value": "Choose what you need. Most organisations start with vehicles and phones, then hand us the rest once they see it running."
+  },
+  {
+   "key": "services-04",
+   "section": "services",
+   "value": "Connectivity"
+  },
+  {
+   "key": "services-05",
+   "section": "services",
+   "value": "Stay connected without the hassle."
+  },
+  {
+   "key": "services-06",
+   "section": "services",
+   "value": "Israeli SIM cards with local numbers at Israeli rates"
+  },
+  {
+   "key": "services-07",
+   "section": "services",
+   "value": "Phones for your teams, by your choice of device"
+  },
+  {
+   "key": "services-08",
+   "section": "services",
+   "value": "Seamless coordination of new or replacement SIMs"
+  },
+  {
+   "key": "services-09",
+   "section": "services",
+   "value": "Cellular & devices"
+  },
+  {
+   "key": "services-10",
+   "section": "services",
+   "value": "Warehouse management"
+  },
+  {
+   "key": "services-11",
+   "section": "services",
+   "value": "Your equipment organised and within reach."
+  },
+  {
+   "key": "services-12",
+   "section": "services",
+   "value": "Storage kept organised and easily accessible"
+  },
+  {
+   "key": "services-13",
+   "section": "services",
+   "value": "Spare keys and local backup — just in case"
+  },
+  {
+   "key": "services-14",
+   "section": "services",
+   "value": "On-demand inventory and equipment renewal"
+  },
+  {
+   "key": "services-15",
+   "section": "services",
+   "value": "Storage & inventory"
+  },
+  {
+   "key": "services-16",
+   "section": "services",
+   "value": "Vehicle operations"
+  },
+  {
+   "key": "services-17",
+   "section": "services",
+   "value": "End-to-end fleet management."
+  },
+  {
+   "key": "services-18",
+   "section": "services",
+   "value": "Annual vehicle inspection (test) handled for you"
+  },
+  {
+   "key": "services-19",
+   "section": "services",
+   "value": "Full maintenance management"
+  },
+  {
+   "key": "services-20",
+   "section": "services",
+   "value": "Fuel / fleet card — better rates, simpler use"
+  },
+  {
+   "key": "services-21",
+   "section": "services",
+   "value": "Reduced insurance rates"
+  },
+  {
+   "key": "services-22",
+   "section": "services",
+   "value": "An Israeli at the garage — no over-charging"
+  },
+  {
+   "key": "services-23",
+   "section": "services",
+   "value": "Fleet"
+  },
+  {
+   "key": "services-24",
+   "section": "services",
+   "value": "Food card"
+  },
+  {
+   "key": "services-25",
+   "section": "services",
+   "value": "A dedicated, rechargeable card for your team."
+  },
+  {
+   "key": "services-26",
+   "section": "services",
+   "value": "Accepted for groceries and eating out"
+  },
+  {
+   "key": "services-27",
+   "section": "services",
+   "value": "Recharged centrally, per person"
+  },
+  {
+   "key": "services-28",
+   "section": "services",
+   "value": "Clear cost tracking and easier use than cash or receipts"
+  },
+  {
+   "key": "services-29",
+   "section": "services",
+   "value": "Team welfare"
+  },
+  {
+   "key": "services-30",
+   "section": "services",
+   "value": "Legal entity"
+  },
+  {
+   "key": "services-31",
+   "section": "services",
+   "value": "A proper Israeli structure to operate under."
+  },
+  {
+   "key": "services-32",
+   "section": "services",
+   "value": "Work under our registered Israeli entity"
+  },
+  {
+   "key": "services-33",
+   "section": "services",
+   "value": "Contracts, suppliers and accounts in order"
+  },
+  {
+   "key": "services-34",
+   "section": "services",
+   "value": "Ongoing compliance with Israeli law"
+  },
+  {
+   "key": "services-35",
+   "section": "services",
+   "value": "Bureaucracy & compliance"
+  },
+  {
+   "key": "services-36",
+   "section": "services",
+   "value": "Local point of contact"
+  },
+  {
+   "key": "services-37",
+   "section": "services",
+   "value": "Your boots on the ground in Israel."
+  },
+  {
+   "key": "services-38",
+   "section": "services",
+   "value": "Here to solve any unexpected problem, in every area of operation"
+  },
+  {
+   "key": "services-39",
+   "section": "services",
+   "value": "We deal with every third-party provider for you"
+  },
+  {
+   "key": "services-40",
+   "section": "services",
+   "value": "Making sure you are treated fairly — every time"
+  },
+  {
+   "key": "services-41",
+   "section": "services",
+   "value": "On call"
+  },
+  {
+   "key": "transparency-01",
+   "section": "transparency",
+   "value": "Full cost transparency"
+  },
+  {
+   "key": "transparency-02",
+   "section": "transparency",
+   "value": "You see every shekel. In your language."
+  },
+  {
+   "key": "transparency-03",
+   "section": "transparency",
+   "value": "We don't make money on the gap between what suppliers charge and what you pay. You get the real numbers, organised the way your finance team needs them."
+  },
+  {
+   "key": "transparency-04",
+   "section": "transparency",
+   "value": "Documented & translated"
+  },
+  {
+   "key": "transparency-05",
+   "section": "transparency",
+   "value": "Every receipt recorded, translated when needed, and broken down by category."
+  },
+  {
+   "key": "transparency-06",
+   "section": "transparency",
+   "value": "One local salary"
+  },
+  {
+   "key": "transparency-07",
+   "section": "transparency",
+   "value": "A single monthly fee covers the management of all your logistics, tailored to your organisation."
+  },
+  {
+   "key": "transparency-08",
+   "section": "transparency",
+   "value": "Direct supplier quotes"
+  },
+  {
+   "key": "transparency-09",
+   "section": "transparency",
+   "value": "Quotes go to you as issued — no added fees, no hidden mediation charges."
+  },
+  {
+   "key": "transparency-10",
+   "section": "transparency",
+   "value": "Monthly expense report"
+  },
+  {
+   "key": "process-01",
+   "section": "process",
+   "value": "How we work"
+  },
+  {
+   "key": "process-02",
+   "section": "process",
+   "value": "From first call to running operation."
+  },
+  {
+   "key": "process-03",
+   "section": "process",
+   "value": "We take over one area at a time, so nothing drops while your team keeps working."
+  },
+  {
+   "key": "process-04",
+   "section": "process",
+   "value": "STEP 1"
+  },
+  {
+   "key": "process-05",
+   "section": "process",
+   "value": "Introduction"
+  },
+  {
+   "key": "process-06",
+   "section": "process",
+   "value": "A short call to understand your organisation, team size and where it hurts today."
+  },
+  {
+   "key": "process-07",
+   "section": "process",
+   "value": "STEP 2"
+  },
+  {
+   "key": "process-08",
+   "section": "process",
+   "value": "Needs map"
+  },
+  {
+   "key": "process-09",
+   "section": "process",
+   "value": "We list every vehicle, line, storage need and supplier, and quote the real costs."
+  },
+  {
+   "key": "process-10",
+   "section": "process",
+   "value": "STEP 3"
+  },
+  {
+   "key": "process-11",
+   "section": "process",
+   "value": "Setup"
+  },
+  {
+   "key": "process-12",
+   "section": "process",
+   "value": "Entity, SIMs, fleet, warehouse and food cards are transferred or set up under our management."
+  },
+  {
+   "key": "process-13",
+   "section": "process",
+   "value": "STEP 4"
+  },
+  {
+   "key": "process-14",
+   "section": "process",
+   "value": "Ongoing"
+  },
+  {
+   "key": "process-15",
+   "section": "process",
+   "value": "One monthly salary, one contact, and an expense report your management can open anytime."
+  },
+  {
+   "key": "team-01",
+   "section": "team",
+   "value": "Who we are"
+  },
+  {
+   "key": "team-02",
+   "section": "team",
+   "value": "Two founders. One job: make Israel easy for you."
+  },
+  {
+   "key": "team-03",
+   "section": "team",
+   "value": "We run Agami Group to give foreign organisations operating in Israel a seamless, worry-free solution for their operations — so your people can focus on the work they came here to do."
+  },
+  {
+   "key": "contact-01",
+   "section": "contact",
+   "value": "Get in touch"
+  },
+  {
+   "key": "contact-02",
+   "section": "contact",
+   "value": "Tell us what you run in Israel. We'll handle the rest."
+  },
+  {
+   "key": "contact-03",
+   "section": "contact",
+   "value": "Write to us with a few lines about your organisation and the services you need. We reply with a clear plan and real local costs."
+  },
+  {
+   "key": "contact-04",
+   "section": "contact",
+   "value": "a.agami@agami-grp.com"
+  },
+  {
+   "key": "contact-05",
+   "section": "contact",
+   "value": "Copy email"
+  },
+  {
+   "key": "contact-06",
+   "section": "contact",
+   "value": "Draft your enquiry"
+  },
+  {
+   "key": "contact-07",
+   "section": "contact",
+   "value": "Pick what you need, then open it in your email or copy it."
+  },
+  {
+   "key": "contact-08",
+   "section": "contact",
+   "value": "Open in email"
+  },
+  {
+   "key": "contact-09",
+   "section": "contact",
+   "value": "Copy message"
+  },
+  {
+   "key": "footer-01",
+   "section": "footer",
+   "value": "© 2026 Agami Group · Logistics & back-office services in Israel"
+  },
+  {
+   "key": "footer-02",
+   "section": "footer",
+   "value": "Back to top ↑"
+  }
+ ],
+ "team": [
+  {
+   "name": "Amos Agami",
+   "role": "Co-founder"
+  },
+  {
+   "name": "Jonathan Agami",
+   "role": "Co-founder"
+  }
+ ]
+}
