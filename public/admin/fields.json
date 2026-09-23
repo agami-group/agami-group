@@ -48,7 +48,7 @@
   {
    "key": "hero-03",
    "section": "hero",
-   "value": "Phones, vehicles, warehousing, a local legal entity and the paperwork in between — handled by one Israeli team, with every shekel documented and visible to your management."
+   "value": "Phones, vehicles, warehousing, office space, a local legal entity and the paperwork in between — handled by one Israeli team, with every shekel documented and visible to your management."
   },
   {
    "key": "hero-04",
@@ -123,7 +123,7 @@
   {
    "key": "challenges-07",
    "section": "challenges",
-   "value": "Phones, cars, storage and supplies each need a different local arrangement."
+   "value": "Phones, cars, storage, office space and supplies each need a different local arrangement."
   },
   {
    "key": "challenges-08",
@@ -133,7 +133,7 @@
   {
    "key": "challenges-09",
    "section": "challenges",
-   "value": "We run connectivity, vehicles, warehousing and food cards end to end."
+   "value": "We run connectivity, vehicles, warehousing, offices and food cards end to end."
   },
   {
    "key": "challenges-10",
@@ -309,6 +309,36 @@
    "key": "services-15",
    "section": "services",
    "value": "Storage & inventory"
+  },
+  {
+   "key": "services-42",
+   "section": "services",
+   "value": "Office"
+  },
+  {
+   "key": "services-43",
+   "section": "services",
+   "value": "A working base for your team, set up and run for you."
+  },
+  {
+   "key": "services-44",
+   "section": "services",
+   "value": "Office space found and leased at local rates"
+  },
+  {
+   "key": "services-45",
+   "section": "services",
+   "value": "Furniture, internet and utilities arranged"
+  },
+  {
+   "key": "services-46",
+   "section": "services",
+   "value": "Cleaning, maintenance and building issues handled"
+  },
+  {
+   "key": "services-47",
+   "section": "services",
+   "value": "Workspace"
   },
   {
    "key": "services-16",
@@ -533,7 +563,7 @@
   {
    "key": "process-09",
    "section": "process",
-   "value": "We list every vehicle, line, storage need and supplier, and quote the real costs."
+   "value": "We list every vehicle, line, office, storage need and supplier, and quote the real costs."
   },
   {
    "key": "process-10",
@@ -548,7 +578,7 @@
   {
    "key": "process-12",
    "section": "process",
-   "value": "Entity, SIMs, fleet, warehouse and food cards are transferred or set up under our management."
+   "value": "Entity, SIMs, fleet, warehouse, office and food cards are transferred or set up under our management."
   },
   {
    "key": "process-13",
