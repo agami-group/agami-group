@@ -1,10 +1,17 @@
 // Shared helpers: content is stored as one private JSON file in Vercel Blob.
 import { get, put } from '@vercel/blob';
+import { readFile, writeFile } from 'node:fs/promises';
 
 const PATH = 'site/content.json';
 export const EMPTY = { text: {}, team: [] };
 
+// When running locally (npm run dev), content lives in .local-content.json instead of Blob.
+const LOCAL_FILE = new URL('../.local-content.json', import.meta.url);
+
 export async function readContent() {
+  if (process.env.LOCAL_DEV) {
+    try { return JSON.parse(await readFile(LOCAL_FILE, 'utf8')); } catch { return EMPTY; }
+  }
   try {
     const res = await get(PATH, { access: 'private', useCache: false });
     if (!res || res.statusCode !== 200 || !res.stream) return EMPTY;
@@ -17,6 +24,7 @@ export async function readContent() {
 }
 
 export async function writeContent(content) {
+  if (process.env.LOCAL_DEV) return writeFile(LOCAL_FILE, JSON.stringify(content, null, 2));
   await put(PATH, JSON.stringify(content), {
     access: 'private',
     addRandomSuffix: false,

@@ -2,8 +2,13 @@
   "name": "agami-group-site",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
     "@vercel/blob": "^2.8.0"
+  },
+  "scripts": {
+    "dev": "node dev.js"
   }
 }
