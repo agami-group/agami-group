@@ -48,6 +48,9 @@ a.btn{color:var(--ink)}
 .side{position:sticky;top:76px;align-self:start;display:grid;gap:2px}
 .side a{padding:7px 10px;border-radius:3px;text-decoration:none;color:var(--ink-2);display:flex;justify-content:space-between}
 .side a:hover{background:var(--sunk);color:var(--ink)}
+.side-page{margin:14px 10px 4px}
+.side-page:first-child{margin-top:0}
+.side{max-height:calc(100vh - 96px);overflow:auto}
 .side a b{font-weight:500;font-size:11px;color:#8a6200}
 .search{width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:3px;background:var(--surface);margin-bottom:10px}
 .tip{background:var(--accent-soft);border-radius:4px;padding:12px 14px;font-size:14px;color:var(--ink);margin-bottom:24px}
@@ -112,7 +115,12 @@ a.btn{color:var(--ink)}
 <script>
 (function(){
   const $ = s => document.querySelector(s);
-  const SECTION_NAMES = {nav:'Top menu', hero:'Hero', challenges:'Challenges', services:'Services', transparency:'Cost transparency', process:'How we work', team:'Team', contact:'Contact', footer:'Footer'};
+  // Sections are "page:part", e.g. "logistics:hero".
+  const PAGE_NAMES = {home:'Group home', logistics:'Logistics', marketing:'Marketing', wiring:'Electrical wiring', rentals:'Headset rental'};
+  const PART_NAMES = {nav:'Top menu', hero:'Hero', challenges:'Challenges', divisions:'Divisions', services:'Services', transparency:'Cost transparency', process:'How it works', 'how-we-work':'How we work', team:'Team', contact:'Contact', footer:'Footer'};
+  const pageOf = s => s.split(':')[0], partOf = s => s.split(':')[1] || s;
+  const secName = s => (PAGE_NAMES[pageOf(s)] || pageOf(s)) + ' · ' + (PART_NAMES[partOf(s)] || partOf(s));
+  const secId = s => 'g-' + s.replace(/[^a-z0-9-]/g, '--');
   let password = '', FIELDS = [], DEFAULT_TEAM = [], team = [], saved = '';
 
   try { password = sessionStorage.getItem('agami-admin') || ''; } catch(e) {}
@@ -148,13 +156,15 @@ a.btn{color:var(--ink)}
     team = (content.team && content.team.length ? content.team : DEFAULT_TEAM).map(p => ({...p}));
     const bySec = {};
     FIELDS.forEach(f => (bySec[f.section] = bySec[f.section] || []).push(f));
-    const order = ['nav','hero','challenges','services','transparency','process','team','contact','footer'].filter(s => bySec[s]);
+    const order = Object.keys(bySec);
 
-    $('#side').innerHTML = order.map(s => `<a href="#g-${s}" data-sec="${s}">${SECTION_NAMES[s]||s}<b></b></a>`).join('');
+    $('#side').innerHTML = order.map((s, i) =>
+      (i === 0 || pageOf(order[i-1]) !== pageOf(s) ? `<p class="mono side-page">${PAGE_NAMES[pageOf(s)] || pageOf(s)}</p>` : '') +
+      `<a href="#${secId(s)}" data-sec="${secId(s)}">${PART_NAMES[partOf(s)] || partOf(s)}<b></b></a>`).join('');
     $('#groups').innerHTML = order.map(s => `
-      <section class="group" id="g-${s}">
-        <h2>${SECTION_NAMES[s]||s} <span class="mono">${bySec[s].length} texts</span></h2>
-        ${s === 'team' ? '<div class="team" id="team"></div>' : ''}
+      <section class="group" id="${secId(s)}">
+        <h2>${secName(s)} <span class="mono">${bySec[s].length} texts</span></h2>
+        ${s === 'home:team' ? '<div class="team" id="team"></div>' : ''}
         <div class="fields">${bySec[s].map(f => `
           <div class="field" data-key="${f.key}">
             <span class="k mono">${f.key}</span>
@@ -181,7 +191,7 @@ a.btn{color:var(--ink)}
 
   function renderTeam(){
     const box = $('#team');
-    box.innerHTML = '<p class="mono" style="margin:0">People shown on the site</p>' + team.map((p,i) => `
+    box.innerHTML = '<p class="mono" style="margin:0">People shown on the group home and logistics pages</p>' + team.map((p,i) => `
       <div class="trow" data-i="${i}">
         <span class="av" aria-hidden="true">${escHtml((p.name||'?').trim().charAt(0).toUpperCase()||'?')}</span>
         <input type="text" value="${escAttr(p.name)}" placeholder="Name" aria-label="Name" data-f="name">
@@ -233,7 +243,7 @@ a.btn{color:var(--ink)}
     const st = $('#state'); st.className = 'state' + (dirty ? ' dirty' : '');
     if (dirty || !st.dataset.hold) st.textContent = dirty ? 'Unsaved changes' : 'No changes';
     document.querySelectorAll('#side a').forEach(a => {
-      const n = document.querySelectorAll('#g-' + a.dataset.sec + ' .field.changed').length;
+      const n = document.querySelectorAll('#' + a.dataset.sec + ' .field.changed').length;
       a.querySelector('b').textContent = n ? n + ' edited' : '';
     });
   }

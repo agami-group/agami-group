@@ -1,668 +1,2238 @@
 {
  "fields": [
   {
+   "key": "home-01",
+   "section": "home:nav",
+   "value": "Agami Group"
+  },
+  {
+   "key": "home-02",
+   "section": "home:nav",
+   "value": "Israel"
+  },
+  {
+   "key": "home-03",
+   "section": "home:nav",
+   "value": "Divisions"
+  },
+  {
+   "key": "home-04",
+   "section": "home:nav",
+   "value": "How we work"
+  },
+  {
+   "key": "home-05",
+   "section": "home:nav",
+   "value": "Team"
+  },
+  {
+   "key": "home-06",
+   "section": "home:nav",
+   "value": "Get in touch"
+  },
+  {
+   "key": "home-08",
+   "section": "home:hero",
+   "value": "Four businesses. *One group* you can rely on."
+  },
+  {
+   "key": "home-09",
+   "section": "home:hero",
+   "value": "Agami Group brings together logistics, marketing consulting, electrical wiring manufacturing and guide audio headset rental — each run by a dedicated team, all held to the same standard of reliability and straight dealing."
+  },
+  {
+   "key": "home-10",
+   "section": "home:hero",
+   "value": "Explore our divisions"
+  },
+  {
+   "key": "home-11",
+   "section": "home:hero",
+   "value": "Get in touch"
+  },
+  {
+   "key": "home-12",
+   "section": "home:hero",
+   "value": "Based in Israel"
+  },
+  {
+   "key": "home-14",
+   "section": "home:hero",
+   "value": "Straight, transparent pricing"
+  },
+  {
+   "key": "home-15",
+   "section": "home:hero",
+   "value": "The group"
+  },
+  {
+   "key": "home-16",
+   "section": "home:hero",
+   "value": "Our divisions"
+  },
+  {
+   "key": "home-17",
+   "section": "home:divisions",
+   "value": "Our divisions"
+  },
+  {
+   "key": "home-18",
+   "section": "home:divisions",
+   "value": "Four specialist teams under one roof."
+  },
+  {
+   "key": "home-19",
+   "section": "home:divisions",
+   "value": "Each division has its own people and expertise. Choose the one you need — or talk to us once and we'll bring in the right team."
+  },
+  {
+   "key": "home-20",
+   "section": "home:divisions",
+   "value": "Logistics & back-office"
+  },
+  {
+   "key": "home-21",
+   "section": "home:divisions",
+   "value": "One partner on the ground for foreign organisations operating in Israel."
+  },
+  {
+   "key": "home-22",
+   "section": "home:divisions",
+   "value": "Vehicles, phones, warehousing and office space"
+  },
+  {
+   "key": "home-23",
+   "section": "home:divisions",
+   "value": "A local legal entity and the paperwork in between"
+  },
+  {
+   "key": "home-24",
+   "section": "home:divisions",
+   "value": "Every shekel documented and visible to your management"
+  },
+  {
+   "key": "home-25",
+   "section": "home:divisions",
+   "value": "Visit Logistics"
+  },
+  {
+   "key": "home-26",
+   "section": "home:divisions",
+   "value": "Marketing consulting"
+  },
+  {
+   "key": "home-27",
+   "section": "home:divisions",
+   "value": "Strategy and campaigns measured on results, not impressions."
+  },
+  {
+   "key": "home-28",
+   "section": "home:divisions",
+   "value": "Positioning, brand and messaging"
+  },
+  {
+   "key": "home-29",
+   "section": "home:divisions",
+   "value": "Digital advertising, social media and content"
+  },
+  {
+   "key": "home-30",
+   "section": "home:divisions",
+   "value": "Clear reporting on what actually works"
+  },
+  {
+   "key": "home-31",
+   "section": "home:divisions",
+   "value": "Visit Marketing"
+  },
+  {
+   "key": "home-32",
+   "section": "home:divisions",
+   "value": "Electrical wiring"
+  },
+  {
+   "key": "home-33",
+   "section": "home:divisions",
+   "value": "Wiring harnesses and cable assemblies, manufactured to your spec."
+  },
+  {
+   "key": "home-34",
+   "section": "home:divisions",
+   "value": "Custom harnesses, cable assemblies and panel wiring"
+  },
+  {
+   "key": "home-35",
+   "section": "home:divisions",
+   "value": "From prototype to production runs"
+  },
+  {
+   "key": "home-36",
+   "section": "home:divisions",
+   "value": "Every unit tested before delivery"
+  },
+  {
+   "key": "home-37",
+   "section": "home:divisions",
+   "value": "Visit Electrical wiring"
+  },
+  {
+   "key": "home-38",
+   "section": "home:divisions",
+   "value": "Guide audio headsets"
+  },
+  {
+   "key": "home-39",
+   "section": "home:divisions",
+   "value": "Headset systems for tour operators and guides, ready when the group arrives."
+  },
+  {
+   "key": "home-40",
+   "section": "home:divisions",
+   "value": "A transmitter for the guide, a receiver for every guest"
+  },
+  {
+   "key": "home-41",
+   "section": "home:divisions",
+   "value": "Charged, cleaned and tested before every tour"
+  },
+  {
+   "key": "home-42",
+   "section": "home:divisions",
+   "value": "By the day, the tour or the season — delivered across Israel"
+  },
+  {
+   "key": "home-43",
+   "section": "home:divisions",
+   "value": "Visit Headset rental"
+  },
+  {
+   "key": "home-44",
+   "section": "home:how-we-work",
+   "value": "How we work"
+  },
+  {
+   "key": "home-45",
+   "section": "home:how-we-work",
+   "value": "Different businesses. The same way of working."
+  },
+  {
+   "key": "home-46",
+   "section": "home:how-we-work",
+   "value": "Whichever division you work with, you get the same things from Agami Group."
+  },
+  {
+   "key": "home-47",
+   "section": "home:how-we-work",
+   "value": "01"
+  },
+  {
+   "key": "home-48",
+   "section": "home:how-we-work",
+   "value": "Straight dealing"
+  },
+  {
+   "key": "home-49",
+   "section": "home:how-we-work",
+   "value": "Clear quotes, real costs and no surprises on the invoice."
+  },
+  {
+   "key": "home-50",
+   "section": "home:how-we-work",
+   "value": "02"
+  },
+  {
+   "key": "home-51",
+   "section": "home:how-we-work",
+   "value": "One accountable contact"
+  },
+  {
+   "key": "home-52",
+   "section": "home:how-we-work",
+   "value": "A named person who picks up the phone and owns the result."
+  },
+  {
+   "key": "home-53",
+   "section": "home:how-we-work",
+   "value": "03"
+  },
+  {
+   "key": "home-54",
+   "section": "home:how-we-work",
+   "value": "Local know-how"
+  },
+  {
+   "key": "home-55",
+   "section": "home:how-we-work",
+   "value": "An Israeli team that knows the suppliers, the rules and how to get things done."
+  },
+  {
+   "key": "home-56",
+   "section": "home:team",
+   "value": "Who we are"
+  },
+  {
+   "key": "home-57",
+   "section": "home:team",
+   "value": "The people behind the group."
+  },
+  {
+   "key": "home-58",
+   "section": "home:team",
+   "value": "Agami Group is led by its founders, who stay personally involved in every division."
+  },
+  {
+   "key": "home-59",
+   "section": "home:contact",
+   "value": "Get in touch"
+  },
+  {
+   "key": "home-60",
+   "section": "home:contact",
+   "value": "Tell us what you need. We'll bring in the right team."
+  },
+  {
+   "key": "home-61",
+   "section": "home:contact",
+   "value": "Write to us with a few lines about your business and which division you're interested in. We'll reply with a clear next step."
+  },
+  {
+   "key": "home-62",
+   "section": "home:contact",
+   "value": "a.agami@agami-grp.com"
+  },
+  {
+   "key": "home-63",
+   "section": "home:contact",
+   "value": "Copy email"
+  },
+  {
+   "key": "home-64",
+   "section": "home:contact",
+   "value": "Draft your enquiry"
+  },
+  {
+   "key": "home-65",
+   "section": "home:contact",
+   "value": "Pick the divisions you're interested in, then open it in your email or copy it."
+  },
+  {
+   "key": "home-66",
+   "section": "home:contact",
+   "value": "Open in email"
+  },
+  {
+   "key": "home-67",
+   "section": "home:contact",
+   "value": "Copy message"
+  },
+  {
+   "key": "home-68",
+   "section": "home:footer",
+   "value": "© 2026 Agami Group · Israel"
+  },
+  {
+   "key": "home-69",
+   "section": "home:footer",
+   "value": "Back to top ↑"
+  },
+  {
    "key": "nav-01",
-   "section": "nav",
+   "section": "logistics:nav",
    "value": "Agami Group"
   },
   {
    "key": "nav-02",
-   "section": "nav",
+   "section": "logistics:nav",
    "value": "Israel Operations"
   },
   {
    "key": "nav-03",
-   "section": "nav",
+   "section": "logistics:nav",
    "value": "Services"
   },
   {
    "key": "nav-04",
-   "section": "nav",
+   "section": "logistics:nav",
    "value": "Transparency"
   },
   {
    "key": "nav-05",
-   "section": "nav",
+   "section": "logistics:nav",
    "value": "How we work"
   },
   {
    "key": "nav-06",
-   "section": "nav",
+   "section": "logistics:nav",
    "value": "Team"
   },
   {
+   "key": "nav-08",
+   "section": "logistics:nav",
+   "value": "All divisions"
+  },
+  {
    "key": "nav-07",
-   "section": "nav",
+   "section": "logistics:nav",
    "value": "Get in touch"
   },
   {
    "key": "hero-01",
-   "section": "hero",
+   "section": "logistics:hero",
    "value": "Logistics & back-office for foreign organisations"
   },
   {
    "key": "hero-02",
-   "section": "hero",
+   "section": "logistics:hero",
    "value": "One partner on the ground to run *all your operations* in Israel."
   },
   {
    "key": "hero-03",
-   "section": "hero",
+   "section": "logistics:hero",
    "value": "Phones, vehicles, warehousing, office space, a local legal entity and the paperwork in between — handled by one Israeli team, with every shekel documented and visible to your management."
   },
   {
    "key": "hero-04",
-   "section": "hero",
+   "section": "logistics:hero",
    "value": "Plan your setup"
   },
   {
    "key": "hero-05",
-   "section": "hero",
+   "section": "logistics:hero",
    "value": "See services"
   },
   {
    "key": "hero-06",
-   "section": "hero",
+   "section": "logistics:hero",
    "value": "One point of contact"
   },
   {
    "key": "hero-07",
-   "section": "hero",
+   "section": "logistics:hero",
    "value": "No mediation fees"
   },
   {
    "key": "hero-08",
-   "section": "hero",
+   "section": "logistics:hero",
    "value": "Compliant with Israeli law"
   },
   {
    "key": "hero-09",
-   "section": "hero",
+   "section": "logistics:hero",
    "value": "You"
   },
   {
    "key": "hero-10",
-   "section": "hero",
+   "section": "logistics:hero",
    "value": "Us"
   },
   {
    "key": "hero-11",
-   "section": "hero",
+   "section": "logistics:hero",
    "value": "Every local provider"
   },
   {
    "key": "challenges-01",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "Why organisations call us"
   },
   {
    "key": "challenges-02",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "Operating in Israel from abroad is harder than it should be."
   },
   {
    "key": "challenges-03",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "Foreign teams keep running into the same six obstacles. Each one has a direct answer — and all six answers come from the same partner."
   },
   {
    "key": "challenges-04",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "The challenge"
   },
   {
    "key": "challenges-05",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "How we solve it"
   },
   {
    "key": "challenges-06",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "Logistics"
   },
   {
    "key": "challenges-07",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "Phones, cars, storage, office space and supplies each need a different local arrangement."
   },
   {
    "key": "challenges-08",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "Managed logistics"
   },
   {
    "key": "challenges-09",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "We run connectivity, vehicles, warehousing, offices and food cards end to end."
   },
   {
    "key": "challenges-10",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "Cost visibility"
   },
   {
    "key": "challenges-11",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "Operational costs are unclear, in Hebrew, and hard to reconcile."
   },
   {
    "key": "challenges-12",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "Full transparency"
   },
   {
    "key": "challenges-13",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "Every expense documented, translated, categorised and open to your management at any time."
   },
   {
    "key": "challenges-14",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "Legal standing"
   },
   {
    "key": "challenges-15",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "No proper Israeli legal entity to contract, hire and operate under."
   },
   {
    "key": "challenges-16",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "Legal entity"
   },
   {
    "key": "challenges-17",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "You work under our entity, and we keep the operation compliant with Israeli law."
   },
   {
    "key": "challenges-18",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "The unexpected"
   },
   {
    "key": "challenges-19",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "A broken-down car or a blocked SIM becomes a week-long problem."
   },
   {
    "key": "challenges-20",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "Boots on the ground"
   },
   {
    "key": "challenges-21",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "An Israeli team that picks up the phone and solves it — in any area of your operation."
   },
   {
    "key": "challenges-22",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "Supplier pricing"
   },
   {
    "key": "challenges-23",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "Third-party providers quote foreigners more than locals."
   },
   {
    "key": "challenges-24",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "Fair local rates"
   },
   {
    "key": "challenges-25",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "We negotiate as locals and pass supplier quotes to you directly, with no mediation fee."
   },
   {
    "key": "challenges-26",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "Too many contacts"
   },
   {
    "key": "challenges-27",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "A different point of contact for every part of the operation."
   },
   {
    "key": "challenges-28",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "One point of contact"
   },
   {
    "key": "challenges-29",
-   "section": "challenges",
+   "section": "logistics:challenges",
    "value": "One team, one line, one monthly salary for all of it."
   },
   {
    "key": "services-01",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Services"
   },
   {
    "key": "services-02",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Everything your team needs to operate — handled locally."
   },
   {
    "key": "services-03",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Choose what you need. Most organisations start with vehicles and phones, then hand us the rest once they see it running."
   },
   {
    "key": "services-04",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Connectivity"
   },
   {
    "key": "services-05",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Stay connected without the hassle."
   },
   {
    "key": "services-06",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Israeli SIM cards with local numbers at Israeli rates"
   },
   {
    "key": "services-07",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Phones for your teams, by your choice of device"
   },
   {
    "key": "services-08",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Seamless coordination of new or replacement SIMs"
   },
   {
    "key": "services-09",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Cellular & devices"
   },
   {
    "key": "services-10",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Warehouse management"
   },
   {
    "key": "services-11",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Your equipment organised and within reach."
   },
   {
    "key": "services-12",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Storage kept organised and easily accessible"
   },
   {
    "key": "services-13",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Spare keys and local backup — just in case"
   },
   {
    "key": "services-14",
-   "section": "services",
+   "section": "logistics:services",
    "value": "On-demand inventory and equipment renewal"
   },
   {
    "key": "services-15",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Storage & inventory"
   },
   {
    "key": "services-42",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Office"
   },
   {
    "key": "services-43",
-   "section": "services",
+   "section": "logistics:services",
    "value": "A working base for your team, set up and run for you."
   },
   {
    "key": "services-44",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Office space found and leased at local rates"
   },
   {
    "key": "services-45",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Furniture, internet and utilities arranged"
   },
   {
    "key": "services-46",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Cleaning, maintenance and building issues handled"
   },
   {
    "key": "services-47",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Workspace"
   },
   {
    "key": "services-16",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Vehicle operations"
   },
   {
    "key": "services-17",
-   "section": "services",
+   "section": "logistics:services",
    "value": "End-to-end fleet management."
   },
   {
    "key": "services-18",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Annual vehicle inspection (test) handled for you"
   },
   {
    "key": "services-19",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Full maintenance management"
   },
   {
    "key": "services-20",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Fuel / fleet card — better rates, simpler use"
   },
   {
    "key": "services-21",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Reduced insurance rates"
   },
   {
    "key": "services-22",
-   "section": "services",
+   "section": "logistics:services",
    "value": "An Israeli at the garage — no over-charging"
   },
   {
    "key": "services-23",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Fleet"
   },
   {
    "key": "services-24",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Food card"
   },
   {
    "key": "services-25",
-   "section": "services",
+   "section": "logistics:services",
    "value": "A dedicated, rechargeable card for your team."
   },
   {
    "key": "services-26",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Accepted for groceries and eating out"
   },
   {
    "key": "services-27",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Recharged centrally, per person"
   },
   {
    "key": "services-28",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Clear cost tracking and easier use than cash or receipts"
   },
   {
    "key": "services-29",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Team welfare"
   },
   {
    "key": "services-30",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Legal entity"
   },
   {
    "key": "services-31",
-   "section": "services",
+   "section": "logistics:services",
    "value": "A proper Israeli structure to operate under."
   },
   {
    "key": "services-32",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Work under our registered Israeli entity"
   },
   {
    "key": "services-33",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Contracts, suppliers and accounts in order"
   },
   {
    "key": "services-34",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Ongoing compliance with Israeli law"
   },
   {
    "key": "services-35",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Bureaucracy & compliance"
   },
   {
    "key": "services-36",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Local point of contact"
   },
   {
    "key": "services-37",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Your boots on the ground in Israel."
   },
   {
    "key": "services-38",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Here to solve any unexpected problem, in every area of operation"
   },
   {
    "key": "services-39",
-   "section": "services",
+   "section": "logistics:services",
    "value": "We deal with every third-party provider for you"
   },
   {
    "key": "services-40",
-   "section": "services",
+   "section": "logistics:services",
    "value": "Making sure you are treated fairly — every time"
   },
   {
    "key": "services-41",
-   "section": "services",
+   "section": "logistics:services",
    "value": "On call"
   },
   {
    "key": "transparency-01",
-   "section": "transparency",
+   "section": "logistics:transparency",
    "value": "Full cost transparency"
   },
   {
    "key": "transparency-02",
-   "section": "transparency",
+   "section": "logistics:transparency",
    "value": "You see every shekel. In your language."
   },
   {
    "key": "transparency-03",
-   "section": "transparency",
+   "section": "logistics:transparency",
    "value": "We don't make money on the gap between what suppliers charge and what you pay. You get the real numbers, organised the way your finance team needs them."
   },
   {
    "key": "transparency-04",
-   "section": "transparency",
+   "section": "logistics:transparency",
    "value": "Documented & translated"
   },
   {
    "key": "transparency-05",
-   "section": "transparency",
+   "section": "logistics:transparency",
    "value": "Every receipt recorded, translated when needed, and broken down by category."
   },
   {
    "key": "transparency-06",
-   "section": "transparency",
+   "section": "logistics:transparency",
    "value": "One local salary"
   },
   {
    "key": "transparency-07",
-   "section": "transparency",
+   "section": "logistics:transparency",
    "value": "A single monthly fee covers the management of all your logistics, tailored to your organisation."
   },
   {
    "key": "transparency-08",
-   "section": "transparency",
+   "section": "logistics:transparency",
    "value": "Direct supplier quotes"
   },
   {
    "key": "transparency-09",
-   "section": "transparency",
+   "section": "logistics:transparency",
    "value": "Quotes go to you as issued — no added fees, no hidden mediation charges."
   },
   {
    "key": "transparency-10",
-   "section": "transparency",
+   "section": "logistics:transparency",
    "value": "Monthly expense report"
   },
   {
    "key": "process-01",
-   "section": "process",
+   "section": "logistics:process",
    "value": "How we work"
   },
   {
    "key": "process-02",
-   "section": "process",
+   "section": "logistics:process",
    "value": "From first call to running operation."
   },
   {
    "key": "process-03",
-   "section": "process",
+   "section": "logistics:process",
    "value": "We take over one area at a time, so nothing drops while your team keeps working."
   },
   {
    "key": "process-04",
-   "section": "process",
+   "section": "logistics:process",
    "value": "STEP 1"
   },
   {
    "key": "process-05",
-   "section": "process",
+   "section": "logistics:process",
    "value": "Introduction"
   },
   {
    "key": "process-06",
-   "section": "process",
+   "section": "logistics:process",
    "value": "A short call to understand your organisation, team size and where it hurts today."
   },
   {
    "key": "process-07",
-   "section": "process",
+   "section": "logistics:process",
    "value": "STEP 2"
   },
   {
    "key": "process-08",
-   "section": "process",
+   "section": "logistics:process",
    "value": "Needs map"
   },
   {
    "key": "process-09",
-   "section": "process",
+   "section": "logistics:process",
    "value": "We list every vehicle, line, office, storage need and supplier, and quote the real costs."
   },
   {
    "key": "process-10",
-   "section": "process",
+   "section": "logistics:process",
    "value": "STEP 3"
   },
   {
    "key": "process-11",
-   "section": "process",
+   "section": "logistics:process",
    "value": "Setup"
   },
   {
    "key": "process-12",
-   "section": "process",
+   "section": "logistics:process",
    "value": "Entity, SIMs, fleet, warehouse, office and food cards are transferred or set up under our management."
   },
   {
    "key": "process-13",
-   "section": "process",
+   "section": "logistics:process",
    "value": "STEP 4"
   },
   {
    "key": "process-14",
-   "section": "process",
+   "section": "logistics:process",
    "value": "Ongoing"
   },
   {
    "key": "process-15",
-   "section": "process",
+   "section": "logistics:process",
    "value": "One monthly salary, one contact, and an expense report your management can open anytime."
   },
   {
    "key": "team-01",
-   "section": "team",
+   "section": "logistics:team",
    "value": "Who we are"
   },
   {
    "key": "team-02",
-   "section": "team",
+   "section": "logistics:team",
    "value": "Two founders. One job: make Israel easy for you."
   },
   {
    "key": "team-03",
-   "section": "team",
+   "section": "logistics:team",
    "value": "We run Agami Group to give foreign organisations operating in Israel a seamless, worry-free solution for their operations — so your people can focus on the work they came here to do."
   },
   {
    "key": "contact-01",
-   "section": "contact",
+   "section": "logistics:contact",
    "value": "Get in touch"
   },
   {
    "key": "contact-02",
-   "section": "contact",
+   "section": "logistics:contact",
    "value": "Tell us what you run in Israel. We'll handle the rest."
   },
   {
    "key": "contact-03",
-   "section": "contact",
+   "section": "logistics:contact",
    "value": "Write to us with a few lines about your organisation and the services you need. We reply with a clear plan and real local costs."
   },
   {
    "key": "contact-04",
-   "section": "contact",
+   "section": "logistics:contact",
    "value": "a.agami@agami-grp.com"
   },
   {
    "key": "contact-05",
-   "section": "contact",
+   "section": "logistics:contact",
    "value": "Copy email"
   },
   {
    "key": "contact-06",
-   "section": "contact",
+   "section": "logistics:contact",
    "value": "Draft your enquiry"
   },
   {
    "key": "contact-07",
-   "section": "contact",
+   "section": "logistics:contact",
    "value": "Pick what you need, then open it in your email or copy it."
   },
   {
    "key": "contact-08",
-   "section": "contact",
+   "section": "logistics:contact",
    "value": "Open in email"
   },
   {
    "key": "contact-09",
-   "section": "contact",
+   "section": "logistics:contact",
    "value": "Copy message"
   },
   {
    "key": "footer-01",
-   "section": "footer",
+   "section": "logistics:footer",
    "value": "© 2026 Agami Group · Logistics & back-office services in Israel"
   },
   {
    "key": "footer-02",
-   "section": "footer",
+   "section": "logistics:footer",
+   "value": "Back to top ↑"
+  },
+  {
+   "key": "marketing-01",
+   "section": "marketing:nav",
+   "value": "Agami Group"
+  },
+  {
+   "key": "marketing-02",
+   "section": "marketing:nav",
+   "value": "Marketing Consulting"
+  },
+  {
+   "key": "marketing-03",
+   "section": "marketing:nav",
+   "value": "Services"
+  },
+  {
+   "key": "marketing-04",
+   "section": "marketing:nav",
+   "value": "How it works"
+  },
+  {
+   "key": "marketing-05",
+   "section": "marketing:nav",
+   "value": "All divisions"
+  },
+  {
+   "key": "marketing-06",
+   "section": "marketing:nav",
+   "value": "Get in touch"
+  },
+  {
+   "key": "marketing-15",
+   "section": "marketing:hero",
+   "value": "Marketing consulting · Agami Group"
+  },
+  {
+   "key": "marketing-16",
+   "section": "marketing:hero",
+   "value": "Marketing that *brings in business*, not just impressions."
+  },
+  {
+   "key": "marketing-17",
+   "section": "marketing:hero",
+   "value": "We help businesses sharpen their message, reach the right customers and run campaigns that are measured on results — with the local insight of a team that works in Israel every day."
+  },
+  {
+   "key": "marketing-18",
+   "section": "marketing:hero",
+   "value": "Book a consultation"
+  },
+  {
+   "key": "marketing-19",
+   "section": "marketing:hero",
+   "value": "See services"
+  },
+  {
+   "key": "marketing-20",
+   "section": "marketing:hero",
+   "value": "Strategy and execution"
+  },
+  {
+   "key": "marketing-21",
+   "section": "marketing:hero",
+   "value": "Clear monthly reporting"
+  },
+  {
+   "key": "marketing-22",
+   "section": "marketing:hero",
+   "value": "Hebrew & English"
+  },
+  {
+   "key": "marketing-23",
+   "section": "marketing:hero",
+   "value": "At a glance"
+  },
+  {
+   "key": "marketing-07",
+   "section": "marketing:hero",
+   "value": "Who it's for"
+  },
+  {
+   "key": "marketing-08",
+   "section": "marketing:hero",
+   "value": "Businesses launching, growing or repositioning"
+  },
+  {
+   "key": "marketing-09",
+   "section": "marketing:hero",
+   "value": "How we engage"
+  },
+  {
+   "key": "marketing-10",
+   "section": "marketing:hero",
+   "value": "A defined project or a monthly retainer"
+  },
+  {
+   "key": "marketing-11",
+   "section": "marketing:hero",
+   "value": "Languages"
+  },
+  {
+   "key": "marketing-12",
+   "section": "marketing:hero",
+   "value": "Hebrew · English"
+  },
+  {
+   "key": "marketing-13",
+   "section": "marketing:hero",
+   "value": "What you get"
+  },
+  {
+   "key": "marketing-14",
+   "section": "marketing:hero",
+   "value": "A plan, the work, and the numbers behind it"
+  },
+  {
+   "key": "marketing-60",
+   "section": "marketing:services",
+   "value": "Services"
+  },
+  {
+   "key": "marketing-61",
+   "section": "marketing:services",
+   "value": "From strategy to the campaign that runs it."
+  },
+  {
+   "key": "marketing-62",
+   "section": "marketing:services",
+   "value": "Start with a strategy session, or bring us in for a single channel. Most clients do both."
+  },
+  {
+   "key": "marketing-24",
+   "section": "marketing:services",
+   "value": "Strategy & positioning"
+  },
+  {
+   "key": "marketing-25",
+   "section": "marketing:services",
+   "value": "Know who you sell to and why they choose you."
+  },
+  {
+   "key": "marketing-26",
+   "section": "marketing:services",
+   "value": "Market and competitor research"
+  },
+  {
+   "key": "marketing-27",
+   "section": "marketing:services",
+   "value": "Target customers and positioning"
+  },
+  {
+   "key": "marketing-28",
+   "section": "marketing:services",
+   "value": "A practical marketing plan with budget"
+  },
+  {
+   "key": "marketing-29",
+   "section": "marketing:services",
+   "value": "Strategy"
+  },
+  {
+   "key": "marketing-30",
+   "section": "marketing:services",
+   "value": "Brand & messaging"
+  },
+  {
+   "key": "marketing-31",
+   "section": "marketing:services",
+   "value": "Say the right thing, the same way, everywhere."
+  },
+  {
+   "key": "marketing-32",
+   "section": "marketing:services",
+   "value": "Brand story and key messages"
+  },
+  {
+   "key": "marketing-33",
+   "section": "marketing:services",
+   "value": "Tone of voice in Hebrew and English"
+  },
+  {
+   "key": "marketing-34",
+   "section": "marketing:services",
+   "value": "Sales and pitch materials"
+  },
+  {
+   "key": "marketing-35",
+   "section": "marketing:services",
+   "value": "Brand"
+  },
+  {
+   "key": "marketing-36",
+   "section": "marketing:services",
+   "value": "Digital advertising"
+  },
+  {
+   "key": "marketing-37",
+   "section": "marketing:services",
+   "value": "Ads that pay for themselves."
+  },
+  {
+   "key": "marketing-38",
+   "section": "marketing:services",
+   "value": "Google, Meta and LinkedIn campaigns"
+  },
+  {
+   "key": "marketing-39",
+   "section": "marketing:services",
+   "value": "Landing pages that convert"
+  },
+  {
+   "key": "marketing-40",
+   "section": "marketing:services",
+   "value": "Budgets managed and optimised weekly"
+  },
+  {
+   "key": "marketing-41",
+   "section": "marketing:services",
+   "value": "Performance"
+  },
+  {
+   "key": "marketing-42",
+   "section": "marketing:services",
+   "value": "Content & social media"
+  },
+  {
+   "key": "marketing-43",
+   "section": "marketing:services",
+   "value": "A steady voice your customers recognise."
+  },
+  {
+   "key": "marketing-44",
+   "section": "marketing:services",
+   "value": "Content calendar and copywriting"
+  },
+  {
+   "key": "marketing-45",
+   "section": "marketing:services",
+   "value": "Social media management"
+  },
+  {
+   "key": "marketing-46",
+   "section": "marketing:services",
+   "value": "Photo and video coordination"
+  },
+  {
+   "key": "marketing-47",
+   "section": "marketing:services",
+   "value": "Content"
+  },
+  {
+   "key": "marketing-48",
+   "section": "marketing:services",
+   "value": "Market entry"
+  },
+  {
+   "key": "marketing-49",
+   "section": "marketing:services",
+   "value": "Bringing a foreign brand to Israel."
+  },
+  {
+   "key": "marketing-50",
+   "section": "marketing:services",
+   "value": "Local market and pricing insight"
+  },
+  {
+   "key": "marketing-51",
+   "section": "marketing:services",
+   "value": "Localisation of messaging and materials"
+  },
+  {
+   "key": "marketing-52",
+   "section": "marketing:services",
+   "value": "Launch campaigns and partner outreach"
+  },
+  {
+   "key": "marketing-53",
+   "section": "marketing:services",
+   "value": "Israel launch"
+  },
+  {
+   "key": "marketing-54",
+   "section": "marketing:services",
+   "value": "Analytics & reporting"
+  },
+  {
+   "key": "marketing-55",
+   "section": "marketing:services",
+   "value": "Know what works and what to stop."
+  },
+  {
+   "key": "marketing-56",
+   "section": "marketing:services",
+   "value": "Tracking and dashboards set up properly"
+  },
+  {
+   "key": "marketing-57",
+   "section": "marketing:services",
+   "value": "Monthly results in plain language"
+  },
+  {
+   "key": "marketing-58",
+   "section": "marketing:services",
+   "value": "Clear recommendations for next month"
+  },
+  {
+   "key": "marketing-59",
+   "section": "marketing:services",
+   "value": "Measurement"
+  },
+  {
+   "key": "marketing-75",
+   "section": "marketing:process",
+   "value": "How it works"
+  },
+  {
+   "key": "marketing-76",
+   "section": "marketing:process",
+   "value": "From first message to done."
+  },
+  {
+   "key": "marketing-77",
+   "section": "marketing:process",
+   "value": "A clear path from first conversation to campaigns that deliver."
+  },
+  {
+   "key": "marketing-63",
+   "section": "marketing:process",
+   "value": "STEP 1"
+  },
+  {
+   "key": "marketing-64",
+   "section": "marketing:process",
+   "value": "Discovery"
+  },
+  {
+   "key": "marketing-65",
+   "section": "marketing:process",
+   "value": "A short call and a look at your business, customers and current marketing."
+  },
+  {
+   "key": "marketing-66",
+   "section": "marketing:process",
+   "value": "STEP 2"
+  },
+  {
+   "key": "marketing-67",
+   "section": "marketing:process",
+   "value": "Plan"
+  },
+  {
+   "key": "marketing-68",
+   "section": "marketing:process",
+   "value": "A focused plan with goals, channels, budget and timeline."
+  },
+  {
+   "key": "marketing-69",
+   "section": "marketing:process",
+   "value": "STEP 3"
+  },
+  {
+   "key": "marketing-70",
+   "section": "marketing:process",
+   "value": "Launch"
+  },
+  {
+   "key": "marketing-71",
+   "section": "marketing:process",
+   "value": "We build and run the work — or support your in-house team."
+  },
+  {
+   "key": "marketing-72",
+   "section": "marketing:process",
+   "value": "STEP 4"
+  },
+  {
+   "key": "marketing-73",
+   "section": "marketing:process",
+   "value": "Measure & improve"
+  },
+  {
+   "key": "marketing-74",
+   "section": "marketing:process",
+   "value": "Monthly reporting and adjustments based on real results."
+  },
+  {
+   "key": "marketing-78",
+   "section": "marketing:contact",
+   "value": "Get in touch"
+  },
+  {
+   "key": "marketing-79",
+   "section": "marketing:contact",
+   "value": "Tell us where you want to grow."
+  },
+  {
+   "key": "marketing-80",
+   "section": "marketing:contact",
+   "value": "Write to us with a few lines about your business and your goals. We reply with a first view on where to focus."
+  },
+  {
+   "key": "marketing-81",
+   "section": "marketing:contact",
+   "value": "a.agami@agami-grp.com"
+  },
+  {
+   "key": "marketing-82",
+   "section": "marketing:contact",
+   "value": "Copy email"
+  },
+  {
+   "key": "marketing-83",
+   "section": "marketing:contact",
+   "value": "Draft your enquiry"
+  },
+  {
+   "key": "marketing-84",
+   "section": "marketing:contact",
+   "value": "Pick what you need help with, then open it in your email or copy it."
+  },
+  {
+   "key": "marketing-85",
+   "section": "marketing:contact",
+   "value": "Open in email"
+  },
+  {
+   "key": "marketing-86",
+   "section": "marketing:contact",
+   "value": "Copy message"
+  },
+  {
+   "key": "marketing-87",
+   "section": "marketing:footer",
+   "value": "© 2026 Agami Group · Marketing consulting"
+  },
+  {
+   "key": "marketing-88",
+   "section": "marketing:footer",
+   "value": "Back to top ↑"
+  },
+  {
+   "key": "wiring-01",
+   "section": "wiring:nav",
+   "value": "Agami Group"
+  },
+  {
+   "key": "wiring-02",
+   "section": "wiring:nav",
+   "value": "Electrical Wiring"
+  },
+  {
+   "key": "wiring-03",
+   "section": "wiring:nav",
+   "value": "What we make"
+  },
+  {
+   "key": "wiring-04",
+   "section": "wiring:nav",
+   "value": "How it works"
+  },
+  {
+   "key": "wiring-05",
+   "section": "wiring:nav",
+   "value": "All divisions"
+  },
+  {
+   "key": "wiring-06",
+   "section": "wiring:nav",
+   "value": "Get in touch"
+  },
+  {
+   "key": "wiring-15",
+   "section": "wiring:hero",
+   "value": "Electrical wiring manufacturing · Agami Group"
+  },
+  {
+   "key": "wiring-16",
+   "section": "wiring:hero",
+   "value": "Wiring harnesses and cable assemblies, *built to your spec*."
+  },
+  {
+   "key": "wiring-17",
+   "section": "wiring:hero",
+   "value": "We manufacture custom electrical wiring in Israel — from a single cable assembly to complex harnesses — built to your drawings and tested before it leaves our floor."
+  },
+  {
+   "key": "wiring-18",
+   "section": "wiring:hero",
+   "value": "Request a quote"
+  },
+  {
+   "key": "wiring-19",
+   "section": "wiring:hero",
+   "value": "See what we make"
+  },
+  {
+   "key": "wiring-20",
+   "section": "wiring:hero",
+   "value": "Made in Israel"
+  },
+  {
+   "key": "wiring-21",
+   "section": "wiring:hero",
+   "value": "Prototype to production"
+  },
+  {
+   "key": "wiring-22",
+   "section": "wiring:hero",
+   "value": "Every unit tested"
+  },
+  {
+   "key": "wiring-23",
+   "section": "wiring:hero",
+   "value": "At a glance"
+  },
+  {
+   "key": "wiring-07",
+   "section": "wiring:hero",
+   "value": "Products"
+  },
+  {
+   "key": "wiring-08",
+   "section": "wiring:hero",
+   "value": "Wire harnesses · cable assemblies · panel wiring"
+  },
+  {
+   "key": "wiring-09",
+   "section": "wiring:hero",
+   "value": "Quantities"
+  },
+  {
+   "key": "wiring-10",
+   "section": "wiring:hero",
+   "value": "Prototypes, small batches and production runs"
+  },
+  {
+   "key": "wiring-11",
+   "section": "wiring:hero",
+   "value": "What we need"
+  },
+  {
+   "key": "wiring-12",
+   "section": "wiring:hero",
+   "value": "Your drawings, a sample or a specification"
+  },
+  {
+   "key": "wiring-13",
+   "section": "wiring:hero",
+   "value": "Quality"
+  },
+  {
+   "key": "wiring-14",
+   "section": "wiring:hero",
+   "value": "Continuity-tested and labelled before delivery"
+  },
+  {
+   "key": "wiring-60",
+   "section": "wiring:services",
+   "value": "What we make"
+  },
+  {
+   "key": "wiring-61",
+   "section": "wiring:services",
+   "value": "Custom wiring for equipment makers and installers."
+  },
+  {
+   "key": "wiring-62",
+   "section": "wiring:services",
+   "value": "Send us a drawing or a sample. We quote, build a first unit for your approval, then produce to the same standard every time."
+  },
+  {
+   "key": "wiring-24",
+   "section": "wiring:services",
+   "value": "Wire harnesses"
+  },
+  {
+   "key": "wiring-25",
+   "section": "wiring:services",
+   "value": "Complete harnesses for your equipment."
+  },
+  {
+   "key": "wiring-26",
+   "section": "wiring:services",
+   "value": "Built to your drawings and wire lists"
+  },
+  {
+   "key": "wiring-27",
+   "section": "wiring:services",
+   "value": "Cut, stripped, crimped and routed"
+  },
+  {
+   "key": "wiring-28",
+   "section": "wiring:services",
+   "value": "Sleeving, taping and labelling included"
+  },
+  {
+   "key": "wiring-29",
+   "section": "wiring:services",
+   "value": "Harnesses"
+  },
+  {
+   "key": "wiring-30",
+   "section": "wiring:services",
+   "value": "Cable assemblies"
+  },
+  {
+   "key": "wiring-31",
+   "section": "wiring:services",
+   "value": "Ready-to-fit cables with the right connectors."
+  },
+  {
+   "key": "wiring-32",
+   "section": "wiring:services",
+   "value": "Power, signal and data cables"
+  },
+  {
+   "key": "wiring-33",
+   "section": "wiring:services",
+   "value": "Standard and custom connectors"
+  },
+  {
+   "key": "wiring-34",
+   "section": "wiring:services",
+   "value": "Any length, any quantity"
+  },
+  {
+   "key": "wiring-35",
+   "section": "wiring:services",
+   "value": "Assemblies"
+  },
+  {
+   "key": "wiring-36",
+   "section": "wiring:services",
+   "value": "Control panel wiring"
+  },
+  {
+   "key": "wiring-37",
+   "section": "wiring:services",
+   "value": "Panels wired neatly and ready to install."
+  },
+  {
+   "key": "wiring-38",
+   "section": "wiring:services",
+   "value": "Wiring to your electrical schematics"
+  },
+  {
+   "key": "wiring-39",
+   "section": "wiring:services",
+   "value": "Terminals, ducting and labelling"
+  },
+  {
+   "key": "wiring-40",
+   "section": "wiring:services",
+   "value": "Documented for easy maintenance"
+  },
+  {
+   "key": "wiring-41",
+   "section": "wiring:services",
+   "value": "Panels"
+  },
+  {
+   "key": "wiring-42",
+   "section": "wiring:services",
+   "value": "Prototyping"
+  },
+  {
+   "key": "wiring-43",
+   "section": "wiring:services",
+   "value": "A first unit fast, so you can test early."
+  },
+  {
+   "key": "wiring-44",
+   "section": "wiring:services",
+   "value": "Quick-turn samples from drawings"
+  },
+  {
+   "key": "wiring-45",
+   "section": "wiring:services",
+   "value": "Feedback on manufacturability"
+  },
+  {
+   "key": "wiring-46",
+   "section": "wiring:services",
+   "value": "Changes made before production"
+  },
+  {
+   "key": "wiring-47",
+   "section": "wiring:services",
+   "value": "First article"
+  },
+  {
+   "key": "wiring-48",
+   "section": "wiring:services",
+   "value": "Production runs"
+  },
+  {
+   "key": "wiring-49",
+   "section": "wiring:services",
+   "value": "Consistent quality at any volume."
+  },
+  {
+   "key": "wiring-50",
+   "section": "wiring:services",
+   "value": "Small batches to repeat production"
+  },
+  {
+   "key": "wiring-51",
+   "section": "wiring:services",
+   "value": "Materials and connectors sourced for you"
+  },
+  {
+   "key": "wiring-52",
+   "section": "wiring:services",
+   "value": "Delivery scheduled to your plan"
+  },
+  {
+   "key": "wiring-53",
+   "section": "wiring:services",
+   "value": "Production"
+  },
+  {
+   "key": "wiring-54",
+   "section": "wiring:services",
+   "value": "Testing & documentation"
+  },
+  {
+   "key": "wiring-55",
+   "section": "wiring:services",
+   "value": "Know every unit works before it arrives."
+  },
+  {
+   "key": "wiring-56",
+   "section": "wiring:services",
+   "value": "Continuity testing on every unit"
+  },
+  {
+   "key": "wiring-57",
+   "section": "wiring:services",
+   "value": "Clear labelling and traceability"
+  },
+  {
+   "key": "wiring-58",
+   "section": "wiring:services",
+   "value": "Test records available on request"
+  },
+  {
+   "key": "wiring-59",
+   "section": "wiring:services",
+   "value": "Quality"
+  },
+  {
+   "key": "wiring-75",
+   "section": "wiring:process",
+   "value": "How it works"
+  },
+  {
+   "key": "wiring-76",
+   "section": "wiring:process",
+   "value": "From first message to done."
+  },
+  {
+   "key": "wiring-77",
+   "section": "wiring:process",
+   "value": "From drawing to delivery, with your approval at every key step."
+  },
+  {
+   "key": "wiring-63",
+   "section": "wiring:process",
+   "value": "STEP 1"
+  },
+  {
+   "key": "wiring-64",
+   "section": "wiring:process",
+   "value": "Drawings & quote"
+  },
+  {
+   "key": "wiring-65",
+   "section": "wiring:process",
+   "value": "Send us your drawings, sample or spec. We reply with price and lead time."
+  },
+  {
+   "key": "wiring-66",
+   "section": "wiring:process",
+   "value": "STEP 2"
+  },
+  {
+   "key": "wiring-67",
+   "section": "wiring:process",
+   "value": "First unit"
+  },
+  {
+   "key": "wiring-68",
+   "section": "wiring:process",
+   "value": "We build a prototype or first article for you to check and approve."
+  },
+  {
+   "key": "wiring-69",
+   "section": "wiring:process",
+   "value": "STEP 3"
+  },
+  {
+   "key": "wiring-70",
+   "section": "wiring:process",
+   "value": "Production"
+  },
+  {
+   "key": "wiring-71",
+   "section": "wiring:process",
+   "value": "Your order is built to the approved sample, with materials sourced for you."
+  },
+  {
+   "key": "wiring-72",
+   "section": "wiring:process",
+   "value": "STEP 4"
+  },
+  {
+   "key": "wiring-73",
+   "section": "wiring:process",
+   "value": "Test & deliver"
+  },
+  {
+   "key": "wiring-74",
+   "section": "wiring:process",
+   "value": "Every unit is tested and labelled, then delivered to your site."
+  },
+  {
+   "key": "wiring-78",
+   "section": "wiring:contact",
+   "value": "Get in touch"
+  },
+  {
+   "key": "wiring-79",
+   "section": "wiring:contact",
+   "value": "Send us your drawing. We'll send you a quote."
+  },
+  {
+   "key": "wiring-80",
+   "section": "wiring:contact",
+   "value": "Tell us what you need built, the quantities and your timeline. Attach drawings when you send the email."
+  },
+  {
+   "key": "wiring-81",
+   "section": "wiring:contact",
+   "value": "a.agami@agami-grp.com"
+  },
+  {
+   "key": "wiring-82",
+   "section": "wiring:contact",
+   "value": "Copy email"
+  },
+  {
+   "key": "wiring-83",
+   "section": "wiring:contact",
+   "value": "Draft your enquiry"
+  },
+  {
+   "key": "wiring-84",
+   "section": "wiring:contact",
+   "value": "Pick what you need, then open it in your email or copy it."
+  },
+  {
+   "key": "wiring-85",
+   "section": "wiring:contact",
+   "value": "Open in email"
+  },
+  {
+   "key": "wiring-86",
+   "section": "wiring:contact",
+   "value": "Copy message"
+  },
+  {
+   "key": "wiring-87",
+   "section": "wiring:footer",
+   "value": "© 2026 Agami Group · Electrical wiring"
+  },
+  {
+   "key": "wiring-88",
+   "section": "wiring:footer",
+   "value": "Back to top ↑"
+  },
+  {
+   "key": "rentals-01",
+   "section": "rentals:nav",
+   "value": "Agami Group"
+  },
+  {
+   "key": "rentals-02",
+   "section": "rentals:nav",
+   "value": "Guide Audio Rental"
+  },
+  {
+   "key": "rentals-03",
+   "section": "rentals:nav",
+   "value": "The service"
+  },
+  {
+   "key": "rentals-04",
+   "section": "rentals:nav",
+   "value": "How it works"
+  },
+  {
+   "key": "rentals-05",
+   "section": "rentals:nav",
+   "value": "All divisions"
+  },
+  {
+   "key": "rentals-06",
+   "section": "rentals:nav",
+   "value": "Get in touch"
+  },
+  {
+   "key": "rentals-15",
+   "section": "rentals:hero",
+   "value": "Guide audio headset rental · Agami Group"
+  },
+  {
+   "key": "rentals-16",
+   "section": "rentals:hero",
+   "value": "Every guest hears the guide, *wherever the tour goes*."
+  },
+  {
+   "key": "rentals-17",
+   "section": "rentals:hero",
+   "value": "We rent guide audio headset systems to tour operators and guides across Israel — charged, cleaned and delivered, so every guest hears every word."
+  },
+  {
+   "key": "rentals-18",
+   "section": "rentals:hero",
+   "value": "Check availability"
+  },
+  {
+   "key": "rentals-19",
+   "section": "rentals:hero",
+   "value": "See the service"
+  },
+  {
+   "key": "rentals-20",
+   "section": "rentals:hero",
+   "value": "Delivery across Israel"
+  },
+  {
+   "key": "rentals-21",
+   "section": "rentals:hero",
+   "value": "Any group size"
+  },
+  {
+   "key": "rentals-22",
+   "section": "rentals:hero",
+   "value": "Charged & cleaned for every tour"
+  },
+  {
+   "key": "rentals-23",
+   "section": "rentals:hero",
+   "value": "At a glance"
+  },
+  {
+   "key": "rentals-07",
+   "section": "rentals:hero",
+   "value": "Who it's for"
+  },
+  {
+   "key": "rentals-08",
+   "section": "rentals:hero",
+   "value": "Tour operators, incoming agencies and guides"
+  },
+  {
+   "key": "rentals-09",
+   "section": "rentals:hero",
+   "value": "What you get"
+  },
+  {
+   "key": "rentals-10",
+   "section": "rentals:hero",
+   "value": "A transmitter for the guide, a receiver and earphones for every guest"
+  },
+  {
+   "key": "rentals-11",
+   "section": "rentals:hero",
+   "value": "Rental period"
+  },
+  {
+   "key": "rentals-12",
+   "section": "rentals:hero",
+   "value": "By the day, the tour or the season"
+  },
+  {
+   "key": "rentals-13",
+   "section": "rentals:hero",
+   "value": "Delivery"
+  },
+  {
+   "key": "rentals-14",
+   "section": "rentals:hero",
+   "value": "To the hotel, the bus or the meeting point"
+  },
+  {
+   "key": "rentals-42",
+   "section": "rentals:services",
+   "value": "The service"
+  },
+  {
+   "key": "rentals-43",
+   "section": "rentals:services",
+   "value": "Guide audio headsets, handled end to end."
+  },
+  {
+   "key": "rentals-44",
+   "section": "rentals:services",
+   "value": "Book a set for a single day or equip every group for the season. We keep them charged, clean and ready."
+  },
+  {
+   "key": "rentals-24",
+   "section": "rentals:services",
+   "value": "Guide headset sets"
+  },
+  {
+   "key": "rentals-25",
+   "section": "rentals:services",
+   "value": "A transmitter for the guide, a receiver for every guest."
+  },
+  {
+   "key": "rentals-26",
+   "section": "rentals:services",
+   "value": "Guests hear the guide clearly, even at busy sites"
+  },
+  {
+   "key": "rentals-27",
+   "section": "rentals:services",
+   "value": "The guide speaks at a normal voice — no shouting"
+  },
+  {
+   "key": "rentals-28",
+   "section": "rentals:services",
+   "value": "Sized to your group, with spare receivers"
+  },
+  {
+   "key": "rentals-29",
+   "section": "rentals:services",
+   "value": "Audio"
+  },
+  {
+   "key": "rentals-30",
+   "section": "rentals:services",
+   "value": "Ready for every tour"
+  },
+  {
+   "key": "rentals-31",
+   "section": "rentals:services",
+   "value": "Charged, cleaned and checked before it reaches you."
+  },
+  {
+   "key": "rentals-32",
+   "section": "rentals:services",
+   "value": "Batteries fully charged before handover"
+  },
+  {
+   "key": "rentals-33",
+   "section": "rentals:services",
+   "value": "Earphones cleaned between tours"
+  },
+  {
+   "key": "rentals-34",
+   "section": "rentals:services",
+   "value": "Every unit tested before it goes out"
+  },
+  {
+   "key": "rentals-35",
+   "section": "rentals:services",
+   "value": "Care"
+  },
+  {
+   "key": "rentals-36",
+   "section": "rentals:services",
+   "value": "Delivery & collection"
+  },
+  {
+   "key": "rentals-37",
+   "section": "rentals:services",
+   "value": "Headsets where you need them, when you need them."
+  },
+  {
+   "key": "rentals-38",
+   "section": "rentals:services",
+   "value": "Delivered to the hotel, bus or meeting point"
+  },
+  {
+   "key": "rentals-39",
+   "section": "rentals:services",
+   "value": "Collected after the tour — nothing to return"
+  },
+  {
+   "key": "rentals-40",
+   "section": "rentals:services",
+   "value": "Replacement if a unit fails on the road"
+  },
+  {
+   "key": "rentals-41",
+   "section": "rentals:services",
+   "value": "Delivery"
+  },
+  {
+   "key": "rentals-57",
+   "section": "rentals:process",
+   "value": "How it works"
+  },
+  {
+   "key": "rentals-58",
+   "section": "rentals:process",
+   "value": "From first message to done."
+  },
+  {
+   "key": "rentals-59",
+   "section": "rentals:process",
+   "value": "Four simple steps from enquiry to your group on the road."
+  },
+  {
+   "key": "rentals-45",
+   "section": "rentals:process",
+   "value": "STEP 1"
+  },
+  {
+   "key": "rentals-46",
+   "section": "rentals:process",
+   "value": "Tell us the tour"
+  },
+  {
+   "key": "rentals-47",
+   "section": "rentals:process",
+   "value": "Dates, number of guests and your pick-up point."
+  },
+  {
+   "key": "rentals-48",
+   "section": "rentals:process",
+   "value": "STEP 2"
+  },
+  {
+   "key": "rentals-49",
+   "section": "rentals:process",
+   "value": "Quote & reserve"
+  },
+  {
+   "key": "rentals-50",
+   "section": "rentals:process",
+   "value": "A clear quote, and the headsets held for your dates."
+  },
+  {
+   "key": "rentals-51",
+   "section": "rentals:process",
+   "value": "STEP 3"
+  },
+  {
+   "key": "rentals-52",
+   "section": "rentals:process",
+   "value": "Delivered"
+  },
+  {
+   "key": "rentals-53",
+   "section": "rentals:process",
+   "value": "Charged, cleaned and delivered to your pick-up point."
+  },
+  {
+   "key": "rentals-54",
+   "section": "rentals:process",
+   "value": "STEP 4"
+  },
+  {
+   "key": "rentals-55",
+   "section": "rentals:process",
+   "value": "Collected"
+  },
+  {
+   "key": "rentals-56",
+   "section": "rentals:process",
+   "value": "We collect after the tour — nothing for you to return."
+  },
+  {
+   "key": "rentals-60",
+   "section": "rentals:contact",
+   "value": "Get in touch"
+  },
+  {
+   "key": "rentals-61",
+   "section": "rentals:contact",
+   "value": "Tell us about your tour. We'll have the headsets ready."
+  },
+  {
+   "key": "rentals-62",
+   "section": "rentals:contact",
+   "value": "Send us the dates, group size and pick-up point. We reply with availability and a clear quote."
+  },
+  {
+   "key": "rentals-63",
+   "section": "rentals:contact",
+   "value": "a.agami@agami-grp.com"
+  },
+  {
+   "key": "rentals-64",
+   "section": "rentals:contact",
+   "value": "Copy email"
+  },
+  {
+   "key": "rentals-65",
+   "section": "rentals:contact",
+   "value": "Draft your enquiry"
+  },
+  {
+   "key": "rentals-66",
+   "section": "rentals:contact",
+   "value": "Pick what you need, then open it in your email or copy it."
+  },
+  {
+   "key": "rentals-67",
+   "section": "rentals:contact",
+   "value": "Open in email"
+  },
+  {
+   "key": "rentals-68",
+   "section": "rentals:contact",
+   "value": "Copy message"
+  },
+  {
+   "key": "rentals-69",
+   "section": "rentals:footer",
+   "value": "© 2026 Agami Group · Guide audio headsets"
+  },
+  {
+   "key": "rentals-70",
+   "section": "rentals:footer",
    "value": "Back to top ↑"
   }
  ],

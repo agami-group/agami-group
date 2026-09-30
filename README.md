@@ -1,6 +1,8 @@
 # Agami Group website (Vercel)
 
-- `public/index.html` – the website
+- `public/index.html` – group home (Agami Group and its four divisions)
+- `public/logistics.html`, `marketing.html`, `wiring.html`, `rentals.html` – one page per division (served at `/logistics`, `/marketing`, …)
+- `public/site.css`, `public/site.js` – shared design and behaviour for all pages
 - `public/admin/` – the admin panel at **yourdomain.com/admin** (password protected)
 - `api/` – small server functions that read and save the site text
 - Text and team are stored in **Vercel Blob** (one private file: `site/content.json`).
@@ -27,3 +29,6 @@
 - `*words*` between stars are shown in the accent colour. Enter = new line.
 - "Restore original" puts back the built-in text.
 - To change the password, change `ADMIN_PASSWORD` in Vercel and redeploy.
+
+## Working locally
+- `npm install`, then `npm run dev` → http://localhost:3000 (admin password `admin`; saves go to `.local-content.json`).
